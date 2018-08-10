@@ -412,7 +412,7 @@ $this->beginContent('@frontend/views/layouts/_clear.php')
                                 <div class="row first-column">
                                     <div class="col-md-12">
                                         <div class="mv30">
-                                            <h2 class="fs30 clr-white ls1 text-uppercase fw100">rupiza</h2>
+                                            <h2 class="fs30 clr-white ls1 text-uppercase fw100"><?php echo Yii::$app->name ?></h2>
                                         </div>
                                     </div>
                                     <div class="col-md-12 para-footer">
@@ -481,13 +481,23 @@ $this->beginContent('@frontend/views/layouts/_clear.php')
                                 </div>
                             </div>
                             <div id="tags" class="col-md-12">
-                                <button class="mt10 btn btn-c-transparent no-radius ls1">#Bloging</button>
-                                <button class="mr10 mt10 btn btn-c-transparent no-radius ls1">#Facebook</button>
-                                <button class="mt10 btn btn-c-transparent no-radius ls1">#Travel</button>
-                                <button class="mr10 mt10 btn btn-c-transparent no-radius ls1">#Twitter</button>
-                                <button class="mr10 mt10 btn btn-c-transparent no-radius ls1">#Development</button>
-                                <button class="mt10 btn btn-c-transparent no-radius ls1">#Drawing</button>
-                                <button class="mr10 mt10 btn btn-c-transparent no-radius ls1">#Forbes</button>
+                                <p>
+                                    <a class="twitter-timeline" href="https://twitter.com/shahzadnagri99" data-widget-id="692009344662138881">Tweets by @shahzadnagri99</a>
+                                    <script>
+                                    ! function(d, s, id)
+                                    {
+                                      var js, fjs = d.getElementsByTagName(s)[0],
+                                        p = /^http:/.test(d.location) ? 'http' : 'https';
+                                      if (!d.getElementById(id))
+                                      {
+                                        js = d.createElement(s);
+                                        js.id = id;
+                                        js.src = p + "://platform.twitter.com/widgets.js";
+                                        fjs.parentNode.insertBefore(js, fjs);
+                                      }
+                                    }(document, "script", "twitter-wjs");
+                                    </script>
+                                  </p>
                             </div>
                         </div>
                     </div>
@@ -501,7 +511,7 @@ $this->beginContent('@frontend/views/layouts/_clear.php')
                 <div class="row">
                     <div class="col-md-6">
                         <div class="mv40">
-                            <h3 class="ls1 clr-secound fw100">&copy; Rupiza All Rights Reserved 2015-16</h3>
+                            <h3 class="ls1 clr-secound fw100">&copy; <?php echo Yii::$app->name ?> All Rights Reserved <?php echo date("Y"); ?></h3>
                         </div>
                     </div>
                     <div class="col-md-6 mv10">
