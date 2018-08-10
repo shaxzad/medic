@@ -94,7 +94,7 @@ $this->beginContent('@frontend/views/layouts/_clear.php')
                         </div>
                     </div>
                     <div class="col-md-3 pv20">
-                        <button type="button" class="btn btn-primary bg-primary clr-white ph20"> Staff login</button>
+                        <a href="<?php echo url::to(['../../backend/web'])?>" class="btn btn-primary bg-primary clr-white ph20"> Staff login</a>
                     </div>
                 </div>            
             </div>
@@ -110,7 +110,7 @@ $this->beginContent('@frontend/views/layouts/_clear.php')
                                 </a>
                             </li>
                             <li class="dropdown">
-                                <a href="#" data-toggle="dropdown" data-submenu="data-submenu" aria-expanded="false" class="dropdown-toggle"> About Us
+                                <a href="<?php echo \yii\helpers\Url::toRoute('aboutus')?>" data-toggle="dropdown" data-submenu="data-submenu" aria-expanded="false" class="dropdown-toggle"> About Us
                                     <span class="fa fa-angle-down"></span>
                                 </a>
                                 <ul class="dropdown-menu">
@@ -403,13 +403,13 @@ $this->beginContent('@frontend/views/layouts/_clear.php')
                 <div class="row mv40">
                         <div class="col-md-12 footer-links">                                
                             <div class="col-md-4 box1">
-                                <a href="" title="">About Us</a>
+                                <a href="<?php echo \yii\helpers\Url::toRoute('aboutus')?>" title="">About Us</a>
                             </div>
                             <div class="col-md-4 box2">
-                                <a href="" title="">Profile</a>
+                                <a href="" title="<?php echo \yii\helpers\Url::toRoute('accreditations')?>">Our Accreditations</a>
                             </div>
                             <div class="col-md-4 box3">
-                                <a href="" title="">Settings</a>
+                                <a href="<?php echo \yii\helpers\Url::toRoute('aboutus')?>" title="">National Insurance Scheme</a>
                             </div>
                         </div>
                 </div>    

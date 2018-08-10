@@ -107,55 +107,390 @@ $this->title = Yii::$app->name;
                     </div>
                 </div>
             </div>
-        </div>
-        <section id="section2" class="bg-secound">
-            <div class="container">
-                <div class="row mt60">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div class="text-center mv80">
-                            <h2 class="fw200 text-uppercase mv50">our services</h2>
-                            <p class="fw100">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven
-                            </p>
+            <section id="msgBoxes">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="col-md-4" style="padding:10px 0;">
+                                <div class="msgBox1">
+                                    <div class="msgBHead">
+                                        <a href="">
+                                            <h2 class="h2">Your Health</h2>
+                                        </a>
+                                    </div>
+                                    <ul class="ulst">
+                                        <li>
+                                            <a href="">‣‣  Breast Cancer Awareness Campaign</a>
+                                        </li>
+                                        <li>
+                                            <a href="">   ‣‣  Tuberculosis </a>
+                                        </li>
+                                        <li>
+                                            <a href="">    ‣‣  Heart Health </a>
+                                        </li>
+                                        <li>
+                                            <a href="">  ‣‣  Diabetes</a>
+                                        </li>
+                                        <li>
+                                            <a href="">  ‣‣  Diabetes</a>
+                                        </li>
+                                        <li>
+                                            <a href=""> ‣‣  Organ Donation </a>
+                                        </li>
+                                            <p class="text-right">
+                                                    
+                                                <a href=""> 
+                                                        ‣‣ View All
+                                                </a>
+                                            </p>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4" style="padding:10px 0;">
+                                <div class="msgBox2">
+                                    <div class="msgBHead">
+                                        <a href="">
+                                            <h2 class="h2">Patient Information</h2>
+                                        </a>
+                                    </div>
+                                    <ul class="ulst">
+                                        <li>
+                                            <a href="">  ‣‣  Interpreter Services </a>
+                                        </li>
+                                        <li>
+                                            <a href="">  ‣‣  Emergency Departments </a>
+                                        </li>
+                                        <li>
+                                            <a href="">  ‣‣  Hospital Stay Checklist</a>
+                                        </li>
+                                        <li>
+                                            <a href="">  ‣‣  How To Get A Health Card </a>
+                                        </li>
+                                        <li>
+                                            <a href="">  ‣‣  Diabetes</a>
+                                        </li>
+                                        <li>
+                                            <a href="">  ‣‣  Visiting Consultants  </a>
+                                        </li>
+                                            <p class="text-right">
+                                                    
+                                                <a href=""> 
+                                                        ‣‣ View All
+                                                </a>
+                                            </p>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4" style="padding:10px 0;">
+                                <div class="msgBox3">
+                                    <div class="msgBHead">
+                                        <a href="">
+                                            <h2 class="h2">Visitor Information</h2>
+                                        </a>
+                                    </div>
+                                    <ul class="ulst">
+                                        <li>
+                                            <a href=""> ‣‣  Nesma’ak Customer Service</a>
+                                        </li>
+                                        <li>
+                                            <a href=""> ‣‣  Visiting Hours and Guidelines    </a>
+                                        </li>
+                                            <p class="text-right">
+                                                    
+                                                <a href=""> 
+                                                        ‣‣ View All
+                                                </a>
+                                            </p>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
+            </section>
+        </div>
+        <section id="section2" class="bg-secound">
+            <div class="container">
+                <div class="row" style="margin-top: 120px;">
                     <div class="col-md-12 mt40">
-                        <div class="col-md-3 text-center">
-                            <div>
-                                <img src="img/rupiza/medical/icons/ambulance.png" height="64" width="64" style="margin:auto" alt="medical-services" class="img-responsive" />
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="iconbox2">
+                                    <div class="box-icon">
+                                        <a href="#" class="clr-primary">
+                                            <img src="<?php echo yii::getAlias('@web'. "/theme/img/icons/1.png") ?>" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="box-content ml80">
+                                        <div class="box-heading">
+                                            <h4 class="fw300 text-uppercase">Find A Doctor</h4>
+                                        </div>
+                                        <div class="box-para mt20">
+                                            <form>
+                                                <input type="text" name="" placeholder="Name of Doctor" class="form-control input-sm">
+                                                <input type="text" name="" placeholder="Specialty" class="form-control mv5 input-sm">
+                                                <select class="form-control input-sm">
+                                                    <option value="0">Select Hospital</option>
+                                                    <option value="1">HGH</option>
+                                                    <option value="2">AWH</option>
+                                                    <option value="3">RH</option>
+                                                    <option value="4">WH</option>
+                                                    <option value="5">AKH</option>
+                                                    <option value="6">NCCCR</option>
+                                                    <option value="7">Ambulance Service</option>
+                                                    <option value="8">HH</option>
+                                                    <option value="9">Cuban</option>
+                                                </select>
+                                                <button class="btn btn-sm btn-primary mv5 bdr0">Find a Doctor</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div>
-                                <h3 class="fw100 ls1 pt10 mb20 text-uppercase">AMBULANCE PICKUP</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                            <div class="col-md-4">
+                                <div class="iconbox2" style="margin-top: 10px;">
+                                    <div class="box-icon">
+                                        <a href="#" class="clr-primary">
+                                            <img src="<?php echo yii::getAlias('@web'. "/theme/img/icons/2.png") ?>" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="box-content ml80">
+                                        <div class="box-heading">
+                                            <img src="<?php echo yii::getAlias('@web'. "/theme/img/icons/My-Health-Logo.png") ?>" alt="">
+                                        </div>
+                                        <div class="box-para mt20">
+                                            <p>Access your patient record information</p>
+                                            <button class="btn btn-primary btn-sm bdr0">Click Here</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="iconbox2">
+                                    <div class="box-icon">
+                                        <a href="#" class="clr-primary">
+                                            <img src="<?php echo yii::getAlias('@web'. "/theme/img/icons/3.png") ?>" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="box-content ml80">
+                                        <div class="box-heading">
+                                            <h4 class="fw300 text-uppercase ls1 ">Our Publications</h4>
+                                        </div>
+                                        <div class="box-para mt20">
+                                            <div class="icnBox">
+                                                <div class="iCn">
+                                                    <i class="fa fa-book icz"></i>
+                                                    <span>
+                                                        <strong>
+                                                            Annual Report
+                                                        </strong>
+                                                    </span>
+                                                </div>
+                                                <hr style="margin:10px;">
+                                                <div class="iCn">
+                                                    <i class="fa fa-book icz"></i>
+                                                    <span>
+                                                        <strong>
+                                                            Al Seha
+                                                        </strong>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-3 text-center">
-                            <div>
-                                <img src="img/rupiza/medical/icons/pulse.png" height="64" width="64" style="margin:auto" alt="medical-services" class="img-responsive" />
+                        <div class="row mv40">
+                            <div class="col-md-4">
+                                <div class="iconbox2">
+                                    <div class="box-icon">
+                                        <a href="#" class="clr-primary">
+                                            <img src="<?php echo yii::getAlias('@web'. "/theme/img/icons/4.png") ?>" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="box-content ml80">
+                                        <div class="box-heading">
+                                            <h4 class="fw300 text-uppercase ls1 ">Education and research</h4>
+                                        </div>
+                                        <div class="box-para">
+                                    <div class="msgBoX">
+                                            <ul class="ulsT">
+                                                <li>
+                                                    <a href="" class="opacity-7">‣‣  Academic Health </a>
+                                                </li>
+                                                <li>
+                                                    <a href="" class="opacity-7">   ‣‣  Medical Education  </a>
+                                                </li>
+                                                <li>
+                                                    <a href="" class="opacity-7">    ‣‣  Medical Research  </a>
+                                                </li>
+                                                <li>
+                                                    <a href="" class="opacity-7">  ‣‣  Translational Research Institute </a>
+                                                </li>
+                                                <li>
+                                                    <a href="" class="opacity-7">  ‣‣  Hamad International Training Center </a>
+                                                </li>
+                                                <p class="text-right">
+                                                <a href=""> 
+                                                        ‣‣ View All
+                                                </a>
+                                            </p>
+                                            </ul>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div>
-                                <h3 class="fw100 ls1 pt10 mb20 text-uppercase">HEART TRANSPLANT</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                            <div class="col-md-4">
+                                <div class="iconbox2">
+                                    <div class="box-icon">
+                                        <a href="#" class="clr-primary">
+                                            <img src="<?php echo yii::getAlias('@web'. "/theme/img/icons/5.png") ?>" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="box-content ml80">
+                                        <div class="box-heading">
+                                            <h4 class="fw300 text-uppercase ls1 ">Events and conferences</h4>
+                                        </div>
+                                        <div class="box-para mt20">
+                                            <div class="icnBox">
+                                                <div class="iCn">
+                                                    <span style="text-align: right !important;display:inline-block;">
+                                                        <a href="" style="color:#0178bc !important; font-size: 14px; text-align: right !important">
+                                                            <strong style="text-align: right !important">
+                                                                5th Qatar Orthopedic Review Co..
+                                                            </strong>
+                                                        </a>
+                                                    </span>
+                                                    <p class="text-right" style="font-size: 12px;">
+                                                        31 August 2018
+                                                    </p>
+                                                </div>
+                                                <hr style="margin:10px;">
+                                                <div class="iCn">
+                                                    <span>
+                                                        <a href="" style="color:#0178bc !important; font-size: 14px; text-align: right !important">
+                                                            <strong style="text-align: right !important">Surgical Endocrine Symposium
+                                                            </strong>
+                                                        </a>
+                                                    </span style="text-align: right !important;display:inline-block;">
+                                                    <p class="text-right" style="font-size: 12px;">
+                                                        21 September 2018
+                                                    </p>
+                                                </div>
+                                                <hr style="margin:10px;">
+
+                                                <div class="iCn">
+                                                    <span style="text-align: right !important;display:inline-block;">
+                                                        <a href="" style="color:#0178bc !important;display:inline-block;; font-size: 14px; text-align: right !important;display:inline-block;">
+                                                            <strong style="text-align: right !important">
+First Qatar Challenges of Cesa...
+                                                            </strong>
+                                                        </a>
+                                                    </span>
+                                                    <p class="text-right" style="font-size: 12px;">
+                                                        29 September 2018
+                                                    </p>
+                                                </div>
+                                                <hr style="margin:10px;">
+                                                <p class="text-right" style="color:black !important">
+                                                    <a href="#"> View All  ‣‣</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-3 text-center">
-                            <div>
-                                <img src="img/rupiza/medical/icons/doctor-stethoscope.png" height="64" width="64" style="margin:auto" alt="medical-services" class="img-responsive" />
-                            </div>
-                            <div>
-                                <h3 class="fw100 ls1 pt10 mb20 text-uppercase">GENE THERAPY</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3 text-center">
-                            <div>
-                                <img src="img/rupiza/medical/icons/first-aid-case.png" height="64" width="64" style="margin:auto" alt="medical-services" class="img-responsive" />
-                            </div>
-                            <div>
-                                <h3 class="fw100 ls1 pt10 mb20 text-uppercase">EMERGENCY TREATMENT</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                            <div class="col-md-4">
+                                <div class="iconbox2">
+                                    <div class="box-icon">
+                                        <a href="#" class="clr-primary">
+                                            <img src="<?php echo yii::getAlias('@web'. "/theme/img/icons/6.png") ?>" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="box-content ml80">
+                                        <div class="box-heading">
+                                            <h4 class="fw300 text-uppercase ls1 ">FMedia library</h4>
+                                        </div>
+                                        <div class="box-para mt20">
+                                            <div class="col-md-6 mv10">
+                                                <figure class="img-box f-5">
+                                                    <div class="img">
+                                                        <img src="<?php echo yii::getAlias('@web'. "/theme/img/imgs/4.jpg") ?>" class="img-responsive">
+                                                    </div>
+                                                    <figcaption class="caption">
+                                                        <div class="table">
+                                                            <div class="table-middle-row">
+                                                                <h4 class="title"><i class="fa fa-plus"></i>
+                                                                </h4>
+                                                                <div class="desc">
+                                                                    <div class="btn-c-white btn btn-md"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="col-md-6 mv10">
+                                                <figure class="img-box f-5">
+                                                    <div class="img">
+                                                        <img src="<?php echo yii::getAlias('@web'. "/theme/img/imgs/4.jpg") ?>" class="img-responsive">
+                                                    </div>
+                                                    <figcaption class="caption">
+                                                        <div class="table">
+                                                            <div class="table-middle-row">
+                                                                <h4 class="title"><i class="fa fa-plus"></i>
+                                                                </h4>
+                                                                <div class="desc">
+                                                                    <div class="btn-c-white btn btn-md"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <figure class="img-box f-5">
+                                                    <div class="img">
+                                                        <img src="<?php echo yii::getAlias('@web'. "/theme/img/imgs/4.jpg") ?>" class="img-responsive">
+                                                    </div>
+                                                    <figcaption class="caption">
+                                                        <div class="table">
+                                                            <div class="table-middle-row">
+                                                                <h4 class="title"><i class="fa fa-plus"></i>
+                                                                </h4>
+                                                                <div class="desc">
+                                                                    <div class="btn-c-white btn btn-md"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <figure class="img-box f-5">
+                                                    <div class="img">
+                                                        <img src="<?php echo yii::getAlias('@web'. "/theme/img/imgs/4.jpg") ?>" alt="image-boxes" class="img-responsive">
+                                                    </div>
+                                                    <figcaption class="caption">
+                                                        <div class="table">
+                                                            <div class="table-middle-row">
+                                                                <h4 class="title"><i class="fa fa-plus"></i>
+                                                                </h4>
+                                                                <div class="desc">
+                                                                    <div class="btn-c-white btn btn-md">
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -272,85 +607,6 @@ $this->title = Yii::$app->name;
             </div>
         </section>
         <div class="mt50"></div>
-        <section id="section3" class="bg-secound">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div class="text-center mv80">
-                            <h2 class="fw200 text-uppercase mv50">our depertments</h2>
-                            <p class="fw100">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 text-center pull-right">
-                        <div class="mt60">
-                            <h2 class="ls2 text-uppercase clr-primary fw100">NEUROLOGY</h2>
-                            <h3 class="clr-darken fw100 ls1">Comprehensive care to
-                                <br/>our patients.</h3>
-                            <div class="mt30"></div>
-                            <hr style="width:70px;margin:auto;border-color:black;border-width:2px" />
-                            <div class="mt30"></div>
-                            <p class="clr-primary ph50 ls1 lh-140">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, Ut enim ad minim veniam,</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 no-padding no-margin">
-                        <img src="img/rupiza/medical/mtl1.jpg" alt="rupiza-medical" class="img-responsive" />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 text-center">
-                        <div class="mt60">
-                            <h2 class="ls2 text-uppercase clr-primary fw100">DENTAL</h2>
-                            <h3 class="clr-darken fw100 ls1">Comprehensive care to
-                                <br/>our patients.</h3>
-                            <div class="mt30"></div>
-                            <hr style="width:70px;margin:auto;border-color:black;border-width:2px" />
-                            <div class="mt30"></div>
-                            <p class="clr-primary ph50 ls1 lh-140">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, Ut enim ad minim veniam,</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 no-padding no-margin pull-left">
-                        <img src="img/rupiza/medical/mtl2.jpg" alt="rupiza-medical" class="img-responsive" />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 text-center pull-right">
-                        <div class="mt60">
-                            <h2 class="ls2 text-uppercase clr-primary fw100">CARDIOLOGY</h2>
-                            <h3 class="clr-darken fw100 ls1">Comprehensive care to
-                                <br/>our patients.</h3>
-                            <div class="mt30"></div>
-                            <hr style="width:70px;margin:auto;border-color:black;border-width:2px" />
-                            <div class="mt30"></div>
-                            <p class="clr-primary ph50 ls1 lh-140">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, Ut enim ad minim veniam,</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 no-padding no-margin">
-                        <img src="img/rupiza/medical/mtl3.jpg" alt="rupizaa-medical-images" class="img-responsive" />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 text-center">
-                        <div class="mt60">
-                            <h2 class="ls2 text-uppercase clr-primary fw100">EMERGENCY</h2>
-                            <h3 class="clr-darken fw100 ls1">Comprehensive care to
-                                <br/>our patients.</h3>
-                            <div class="mt30"></div>
-                            <hr style="width:70px;margin:auto;border-color:black;border-width:2px" />
-                            <div class="mt30"></div>
-                            <p class="clr-primary ph50 ls1 lh-140">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, Ut enim ad minim veniam,</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 no-padding no-margin pull-left">
-                        <img src="img/rupiza/medical/mtl4.jpg" alt="images-rupiza" class="img-responsive" />
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="mt50"></div>
         <section id="section4">
             <div style="background:url(img/bg_pattern.png)">
                 <div class="container">
@@ -370,7 +626,7 @@ $this->title = Yii::$app->name;
                                 <div class="col-md-4">
                                     <div class="mt30">
                                         <div class="wedding-margin-auto">
-                                            <img src="img/rupiza/medical/team1.jpg" alt="images-rupiza" class="img-responsive wedding-margin-auto" />
+                                            <img src="<?php echo yii::getAlias('@web'. "/theme/img/rupiza/medical/team1.jpg") ?>" alt="images-rupiza" class="img-responsive wedding-margin-auto" />
                                         </div>
                                         <div class="text-center">
                                             <h3 class="clr-primary">Dr Phillips</h3>
@@ -405,7 +661,7 @@ $this->title = Yii::$app->name;
                                     <div class="mt30">
                                         <div>
                                             <div>
-                                                <img src="img/rupiza/medical/team2.jpg" alt="rupiza-team-images" class="img-responsive wedding-margin-auto" />
+                                                <img src="<?php echo yii::getAlias('@web'. "/theme/img/rupiza/medical/team2.jpg") ?>" alt="rupiza-team-images" class="img-responsive wedding-margin-auto" />
                                             </div>
                                             <div class="text-center">
                                                 <h3 class="clr-primary">Dr Phillips</h3>
@@ -441,7 +697,7 @@ $this->title = Yii::$app->name;
                                     <div class="mt30">
                                         <div>
                                             <div>
-                                                <img src="img/rupiza/medical/team1.jpg" alt="images-team" class="img-responsive wedding-margin-auto" />
+                                                <img src="<?php echo yii::getAlias('@web'. "/theme/img/rupiza/medical/team1.jpg") ?>" alt="images-team" class="img-responsive wedding-margin-auto" />
                                             </div>
                                             <div class="text-center">
                                                 <h3 class="clr-primary">Dr Phillips</h3>
@@ -479,7 +735,7 @@ $this->title = Yii::$app->name;
                 </div>
             </div>
         </section>
-        <section style="background:url(img/rupiza/medical/bg-countup.jpg)" class="bg-cover bg-fixed">
+        <section style='background:url("<?php echo yii::getAlias('@web'. "/theme/img/rupiza/medical/bg-countup.jpg") ?>")' class="bg-cover bg-fixed">
             <div class="bg-alpha-freelancer">
                 <div style="background:url(img/bg_pattern.png)">
                     <div class="container">
@@ -527,108 +783,6 @@ $this->title = Yii::$app->name;
                                         <div class="mb10"></div>
                                         <h3 class="clr-white text-uppercase">branches</h3>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="bg-secound">
-            <div class="container">
-                <div class="row mt50">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div class="text-center mv80">
-                            <h2 class="fw200 text-uppercase mv50">latest news and events?</h2>
-                            <p class="fw100">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="col-md-4">
-                            <div class="team-blog">
-                                <figure class="popup-gallery mb20">
-                                    <img src="img/rupiza/medical/medical1.jpg" alt="images-news-medical" class="img-responsive" />
-                                    <div class="img-hover"></div>
-                                    <a href="img/rupiza/medical/medical1.jpg">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                </figure>
-                                <div class="team-blog-box">
-                                    <h3 class="clr-primary block text-uppercase">idea generation
-                                    </h3>
-                                    <div class="clearfix"></div>
-                                    <span>BY:
-                                        <a href="#" class="fs17 pl10 clr-primary">
-                                            <i class="fa fa-user fs20 pr5"></i>john doe</a>
-                                    </span>
-                                </div>
-                                <div class="lb-p">
-                                    <p class="mt10">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                </div>
-                                <div class="lb-btn mb50">
-                                    <a href="blog-detail-post.html" class="fs18 clr-primary">Read More ...
-                                        <i class="fa fa-angle-double-right clr-primary"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="team-blog">
-                                <figure class="popup-gallery mb20">
-                                    <img src="img/rupiza/medical/medical2.jpg" alt="images-news-medical" class="img-responsive" />
-                                    <div class="img-hover"></div>
-                                    <a href="img/rupiza/medical/medical2.jpg">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                </figure>
-                                <div class="team-blog-box">
-                                    <h3 class="clr-primary block text-uppercase">meet needs
-                                    </h3>
-                                    <div class="clearfix"></div>
-                                    <span>BY:
-                                        <a href="#" class="fs17 pl10 clr-primary">
-                                            <i class="fa fa-user fs20 pr5"></i>ikram</a>
-                                    </span>
-                                </div>
-                                <div class="lb-p">
-                                    <p class="mt10">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                </div>
-                                <div class="lb-btn mb50">
-                                    <a href="blog-detail-post.html" class="fs18 clr-primary">Read More ...
-                                        <i class="fa fa-angle-double-right clr-primary"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="team-blog">
-                                <figure class="popup-gallery mb20">
-                                    <img src="img/rupiza/medical/medical3.jpg" alt="images-news-medical" class="img-responsive" />
-                                    <div class="img-hover"></div>
-                                    <a href="img/rupiza/medical/medical3.jpg">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                </figure>
-                                <div class="team-blog-box">
-                                    <h3 class="clr-primary block text-uppercase">well designed
-                                    </h3>
-                                    <div class="clearfix"></div>
-                                    <span>BY:
-                                        <a href="#" class="fs17 pl10 clr-primary">
-                                            <i class="fa fa-user fs20 pr5"></i>christopher</a>
-                                    </span>
-                                </div>
-                                <div class="lb-p">
-                                    <p class="mt10">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                </div>
-                                <div class="lb-btn mb50">
-                                    <a href="blog-detail-post.html" class="fs18 clr-primary">Read More ...
-                                        <i class="fa fa-angle-double-right clr-primary"></i>
-                                    </a>
                                 </div>
                             </div>
                         </div>

@@ -29,3 +29,95 @@
 .sec_fe_a:hover{
 	color: white !important;
 }
+
+#msgBoxes{
+	position: absolute;
+	top: 695px;
+	display: block;
+	margin : 0 auto !important;
+	width: 100%;
+}
+.msgBox1 a,.msgBox2 a, .msgBox3 a{
+	color: #efefef;
+	font-size: 14px;
+	font-weight: 600;
+}
+.msgBox1 a:hover,.msgBox2 a:hover, .msgBox3 a:hover{
+	color: white;
+}
+.msgBox1{
+	padding: 15px 25px;
+	color: white;
+	background: #42B3E5;
+	height: 250px;
+	letter-spacing: 0.7px;
+	word-spacing: 1px;
+}
+.msgBox2{
+	padding: 15px 25px;
+	color: white;
+	background: #0384CE;
+	height: 250px;
+	letter-spacing: 0.7px;
+	word-spacing: 1px;
+}
+.msgBox3{
+	padding: 15px 25px;
+	color: white;
+	background: #3156A3;
+	height: 250px;
+	letter-spacing: 0.7px;
+	word-spacing: 1px;
+}
+
+.ulst{
+	list-style: none;
+    padding-left: 5px;
+}
+
+.iCn{
+	display: inline-block;
+	
+}
+.iCn i{
+	border: 1px solid #6f6f6f;
+	padding: 3px;
+	color: #6f6f6f;
+	transition: all ease .2s;
+}
+.iCn:hover .icz {
+	border: 1px solid #42B3E5;
+	padding: 3px;
+	color: white;
+	background: #42B3E5;
+	transition: all ease .2s;
+}
+.iCnContent{
+	display: inline-block;
+}
+
+.bdr0{
+	border-radius: 0 !important;
+}
+.msgBoX{
+	padding: 10px;
+	color: black;
+	/* background: #3156A3; */
+	font-size: 12px;
+	height: auto;
+	letter-spacing: 0.7px;
+	word-spacing: 1px;
+}
+.ulsT{
+	list-style: none;
+    padding-left: 5px;
+    color: black;
+}
+.msgBoX a{
+	color: #333;
+	font-size: 12px;
+	font-weight: 600;
+}
+.msgBoX a:hover{
+	color: black;
+}

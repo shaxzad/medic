@@ -1,5 +1,19 @@
 # Env
 /.env
+/vhost.conf
+
+# composer
+# 
+/vendor
+/backend/tasks/node_modules
+/backend/tasks/bower_components
+/backend/web/assets
+/storage/web/uploads/images/*
+/frontend/web/assets
+/backend/runtime/debug
+/frontend/runtime/debug
+/storage/web/backups
+/rest/node_modules
 
 # composer
 /vendor
@@ -26,6 +40,14 @@ phpunit.phar
 
 # Vagrant
 /.vagrant
+/vagrant.yaml
 
-# Tests
-tests/codeception/*/_support/_generated/*
+
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
