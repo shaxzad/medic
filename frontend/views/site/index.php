@@ -2,7 +2,7 @@
 /* @var $this yii\web\View */
 $this->title = Yii::$app->name;
 ?>
-<div class="site-index">
+<div class="">
     <div class="body-content">
         <div>
             <a href="#sliderr" id="backtotop">
@@ -18,9 +18,9 @@ $this->title = Yii::$app->name;
         <div id="section1">
             <div id="carousel-area-construction" class="fitness-mp-slider">
                 <div id="car-slider" class="owl-carousel">
-                    <div style="background: url(img/rupiza/medical/bg1.jpg);height:660px !important" class="bg-cover slider-wow fadeIn">
+                    <div style="background: url(<?php echo yii::getAlias('@web'). '/theme/img/rupiza/medical/bg1.jpg'; ?>);height:660px !important" class="bg-cover slider-wow fadeIn">
                         <div class="alpha-background-construction">
-                            <div style="background: url(img/bg_pattern.png)" class="paterns hp100">
+                            <div style="background: url(<?php yii::getAlias('@web'). '/theme/img/bg_pattern.png'; ?>)" class="paterns hp100">
                                 <div class="table">
                                     <div class="table-middle-row text-center slider-wow fadeIn">
                                         <div class="container">
@@ -50,9 +50,9 @@ $this->title = Yii::$app->name;
                             </div>
                         </div>
                     </div>
-                    <div style="background: url(img/rupiza/medical/bg2.jpg);height:660px !important" class="bg-cover">
+                    <div style="background: url(<?php echo yii::getAlias('@web'). '/theme/img/rupiza/medical/bg2.jpg'; ?>);height:660px !important" class="bg-cover">
                         <div class="alpha-background-construction slider-wow fadeIn">
-                            <div style="background: url(img/bg_pattern.png)" class="paterns hp100">
+                            <div style="background: url(<?php echo yii::getAlias('@web'). '/theme/img/bg_pattern.png';?>)" class="paterns hp100">
                                 <div class="table">
                                     <div class="table-middle-row text-center slider-wow fadeIn">
                                         <div class="mv35">
@@ -77,7 +77,7 @@ $this->title = Yii::$app->name;
                             </div>
                         </div>
                     </div>
-                    <div style="background: url(img/rupiza/medical/bg.jpg);height:660px !important" class="bg-cover">
+                    <div style="background: url(<?php echo yii::getAlias('@web'). '/theme/img/rupiza/medical/bg.jpg'?>);height:660px !important" class="bg-cover">
                         <div class="alpha-background-construction hp100">
                             <div style="background: url(img/texture_layer.png)" class="paterns hp100">
                                 <div class="table">
@@ -629,58 +629,6 @@ $this->title = Yii::$app->name;
                                     <a href="blog-detail-post.html" class="fs18 clr-primary">Read More ...
                                         <i class="fa fa-angle-double-right clr-primary"></i>
                                     </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="section5" style="background:url(img/rupiza/medical/bg-countup.jpg)" class="bg-cover bg-fixed">
-            <div class="bg-alpha-black-medical">
-                <div style="background:url(img/bg_pattern.png)">
-                    <div id="contactus">
-                        <div class="container">
-                            <div class="row mb20 mt60">
-                                <div class="col-md-12 text-center">
-                                    <h2 class="clr-white text-uppercase ls1 fw100">contact us</h2>
-                                </div>
-                            </div>
-                            <div class="row mb40 mt30">
-                                <div class="col-md-8 col-md-offset-2 text-center">
-                                    <p class="clr-white ls1 lh-150">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-                                </div>
-                            </div>
-                            <div class="row mb60">
-                                <div class="col-md-8 col-md-offset-2">
-                                    <div id="myForm" class="blog-form">
-                                        <form action="#" novalidate="novalidate" data-toggle="validator" class="contact-form">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <input type="text" id="inputName" placeholder="first name**" required="required" class="no-radius form-business form-input form-control pv25 clr-white form-company inputName" />
-                                                    <div class="help-block with-errors"></div>
-                                                    <div class="mt15"></div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 form-group">
-                                                <div class="form-group">
-                                                    <input type="email" name="email" id="inputEmail" placeholder="Email**" data-e-rror="Bruh, that email address is invalid" required="required" class="no-radius form-business form-input form-control pv25 clr-white form-company input-field" />
-                                                    <div class="help-block with-errors"></div>
-                                                    <div class="mt15"></div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <textarea rows="6" id="inputName2" placeholder="Message**" required="required" class="form-business form-input form-control pv25 clr-white form-company inputName"></textarea>
-                                                    <div class="help-block with-errors"></div>
-                                                    <div class="mt15"></div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 col-md-offset-8">
-                                                <button type="submit" class="btn btn-block form-btn no-radius pv15 fs15 letter-spacing-1 clr-white">SUBMIT HERE!</button>
-                                            </div>
-                                        </form>
-                                    </div>
                                 </div>
                             </div>
                         </div>

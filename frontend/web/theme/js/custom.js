@@ -26,8 +26,7 @@ $(window).on('load',function(){
 
 $(document).ready(function  () {
   init();
-  staller();
-  vegasHeader();
+
   
 
 });
