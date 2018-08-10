@@ -35,6 +35,16 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+    public function actionAboutus()
+    {
+        return $this->render('aboutus');
+    }
+
+    public function actionAccreditations()
+    {
+        return $this->render('accreditations');
+    }
+
     public function actionContact()
     {
         $model = new ContactForm();

@@ -9,7 +9,7 @@ use yii\helpers\Url;
 
 $this->beginContent('@frontend/views/layouts/_clear.php')
 ?>
-<div class="wrap">
+<div class="">
 <!--     <?php
     NavBar::begin([
         'brandLabel' => Yii::$app->name,
