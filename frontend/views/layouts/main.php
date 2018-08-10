@@ -7,11 +7,14 @@ use yii\widgets\Breadcrumbs;
 
 $this->beginContent('@frontend/views/layouts/base.php')
 ?>
-    <div class="container-fluid" style="padding: 0px">
-
+    
+    <div class="container mt30">
+        
         <?php echo Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
+    </div>
+    <div class="container-fluid" style="padding: 0px">
 
         <?php if(Yii::$app->session->hasFlash('alert')):?>
             <?php echo \yii\bootstrap\Alert::widget([
