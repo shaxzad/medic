@@ -1,0 +1,383 @@
+/*
+ * Title: Pure CSS3 Menu
+ * Author: Clear
+ * Version: 1.0.0
+ * Create: 2015-06-15
+ * Update: 2015-06-15
+ * http://www.ClearDesign.me
+ */
+
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+	outline: none;
+	font-weight: normal;
+}
+
+body {
+	background: #3498DB;
+	color: #fff;
+	font-family: "Segoe UI","Microsoft YaHei";
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+
+	&:hover {
+		color: #d0d0d0;
+	}
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.box-sizing(@a: border-box) {
+	-webkit-box-sizing: @a;
+	   -moz-box-sizing: @a;
+		-ms-box-sizing: @a;
+		 -o-box-sizing: @a;
+			box-sizing: @a;
+}
+
+.transition(@t: .5s) {
+	-webkit-transition: all @t;
+	   -moz-transition: all @t;
+		-ms-transition: all @t;
+		 -o-transition: all @t;
+			transition: all @t;
+}
+
+.transform(@t: roate(0deg)) {
+	-webkit-transform: @t;
+	   -moz-transform: @t;
+		-ms-transform: @t;
+		 -o-transform: @t;
+			transform: @t;
+}
+
+.transform-origin(@x: 50%,@y: 50%) {
+	-webikt-transform-origin: @x @y;
+	   -moz-transform-origin: @x @y;
+		 -o-transform-origin: @x @y;
+			transform-origin: @x @y;
+}
+
+.border-radius(@a: 0) {
+	-webit-border-radius: @a;
+	   -moz-border-radius: @a;
+		-ms-border-radius: @a;
+		 -o-border-radius: @a;
+			border-radius: @a;
+}
+
+.animation(@a: all) {
+	-webkit-animation: @a;
+	   -moz-animation: @a;
+	  	-ms-animation: @a;
+		 -o-animation: @a;
+			animation: @a;
+}
+
+/* Header */
+
+.header {
+	color: #fff;
+	text-align: center;
+	min-height: 140px;
+	margin-bottom: 60px;
+
+	& h1 {
+		margin-top: 100px;
+		font-size: 50px;
+		margin-bottom: 20px;
+		font-weight: 100;
+	}
+
+	& a {
+		font-size: 18px;
+		margin-left: 20px;
+	}
+}
+
+/* Clear Loading */
+
+.clear-loading {
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	.box-sizing();
+}
+
+/* Loading Effect One */
+
+.loading-effect-1 {
+	width: 100px;
+	height: 100px;
+
+	& span {
+		display: block;
+		.border-radius(50%);
+		border: 4px solid #fff;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		.transform(translate(-50%,-50%));
+
+		&:first-child {
+			width: 100%;
+			height: 100%;
+			border-color: rgba(25,190,155,1);
+			border-left-color: transparent;
+			top: 0;
+			left: 0;
+			.animation(effect-1-1 4s infinite linear);
+		}
+
+		&:nth-child(2) {
+			width: 75%;
+			height: 75%;
+			border-color: rgba(230,75,60,1);
+			border-right-color: transparent;
+			top: 12.5%;
+			left: 12.5%;
+			.animation(effect-1-2 3s infinite linear);
+		}
+
+		&:last-child {
+			width: 50%;
+			height: 50%;
+			border-color: rgba(50,70,95,1);
+			border-bottom-color: transparent;
+			top: 25%;
+			left: 25%;
+			.animation(effect-1-1 4s infinite linear);
+		}
+	}
+}
+
+@-webkit-keyframes effect-1-1 { 
+	from{
+		.transform(rotate(0deg));
+	}
+	to{
+		.transform(rotate(360deg));
+	}
+}
+
+@keyframes effect-1-1 {
+	from{
+		.transform(rotate(0deg));
+	}
+	to{
+		.transform(rotate(360deg));
+	}
+}
+
+@-webkit-keyframes effect-1-2 { 
+	from{
+		.transform(rotate(0deg));
+	}
+	to{
+		.transform(rotate(-360deg));
+	}
+}
+
+@keyframes effect-1-2 {
+	from{
+		.transform(rotate(0deg));
+	}
+	to{
+		.transform(rotate(-360deg));
+	}
+}
+
+/* Loading Effect Two */
+
+.loading-effect-2 {
+	width: 100px;
+	height: 100px;
+
+	& > span,
+	& > span:before,
+	& > span:after {
+		content: "";
+		display: block;
+		border-radius: 50%;
+		border: 2px solid #fff;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		.transform(translate(-50%,-50%));
+	}
+
+	& > span {
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		border-left-color: transparent;
+		.animation(effect-2 2s infinite linear);
+	}
+
+	& > span:before {
+		width: 75%;
+		height: 75%;
+		border-right-color: transparent;
+	}
+
+	& > span:after {
+		width: 50%;
+		height: 50%;
+		border-bottom-color: transparent;
+	}
+}
+
+@-webkit-keyframes effect-2 { 
+	from{
+		.transform(rotate(0deg));
+	}
+	to{
+		.transform(rotate(360deg));
+	}
+}
+
+@keyframes effect-2 {
+	from{
+		.transform(rotate(0deg));
+	}
+	to{
+		.transform(rotate(360deg));
+	}
+}
+
+/* Loading Effect Three */
+
+.loading-effect-3 {
+	width: 100px;
+	height: 100px;
+
+	& div {
+		display: block;
+		width: 100%;
+		height: 100%;
+		border: 1px solid #fff;
+		border-radius: 50%;
+
+		& > span {
+			background: #fff;
+			width: 10px;
+			height: 10px;
+			display: block;
+			border-radius: 50%;
+			position: relative;
+			top: -5px;
+			left: 50%;
+			.transform-origin(0,55px);
+			.animation(effect-3 2s infinite linear);
+		}
+	}
+}
+
+@-webkit-keyframes effect-3 { 
+	from{
+		.transform(rotate(0deg));
+	}
+	to{
+		.transform(rotate(360deg));
+	}
+}
+
+@keyframes effect-3 {
+	from{
+		.transform(rotate(0deg));
+	}
+	to{
+		.transform(rotate(360deg));
+	}
+}
+
+/* Loading Effect Four */
+
+.loading-effect-4 {
+	width: 100px;
+	height: 100px;
+
+	& > div {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	}
+
+	& span {
+		background: #fff;
+		display: block;
+		width: 15%;
+		height: 15%;
+		border-radius: 50%;
+		position: absolute;
+		left: 50%;
+		.transform(translate(-50%,0));
+		.transform-origin(0,49px);
+
+		&:first-child {
+			background: rgba(25,190,155,1);
+			.animation(effect-4-1 1.5s infinite linear);
+		}
+
+		&:nth-child(2) {
+			background: rgba(255,255,255,1);
+			.animation(effect-4-1 2s infinite linear);
+		}
+
+		&:nth-child(3) {
+			background: rgba(230,75,60,1);
+			.animation(effect-4-1 2.5s infinite linear);
+		}
+
+		&:nth-child(4) {
+			background: rgba(50,70,95,1);
+			.animation(effect-4-1 3s infinite linear);
+		}
+	}
+}
+
+@-webkit-keyframes effect-4-1 { 
+	from{
+		.transform(rotate(0deg));
+	}
+	to{
+		.transform(rotate(360deg));
+	}
+}
+
+@keyframes effect-4-1 {
+	from{
+		.transform(rotate(0deg));
+	}
+	to{
+		.transform(rotate(360deg));
+	}
+}
+
+/* Footer */
+
+.footer {
+	min-width: 200px;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.copyright {
+
+	& span,
+	& a {
+		margin: 0 10px;
+	}
+}

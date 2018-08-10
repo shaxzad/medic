@@ -1,0 +1,19 @@
+.footer-links .box1,.box2,.box3
+{
+	padding: 50px 10px;
+	background-color: #24b3e5;	
+	text-transform: uppercase;
+}
+.footer-links .box2
+{
+	background-color: #0384ce;	
+}
+.footer-links .box3
+{
+	background-color: #315683;
+}
+.footer-links a
+{
+	color: #fff;
+	font-size: 21px;
+}
