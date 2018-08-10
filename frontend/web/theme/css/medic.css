@@ -17,3 +17,15 @@
 	color: #fff;
 	font-size: 21px;
 }
+.sec_plac{
+	color: white;
+}
+.sec_plac::placeholder{
+	color: #efefef;
+}
+.sec_fe_a{
+	color: #efefef;
+}
+.sec_fe_a:hover{
+	color: white !important;
+}

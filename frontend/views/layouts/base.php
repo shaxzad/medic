@@ -2,6 +2,7 @@
 
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
+use yii\helpers\Url;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
@@ -60,29 +61,36 @@ $this->beginContent('@frontend/views/layouts/_clear.php')
     ]); ?>
     <?php NavBar::end(); ?> -->
 
-
-        <div class="top-bar">
+            <div class="top-bar">
             <div class="container">
                 <div class="row pv15 pl10">
                     <div class="col-md-3">
                         <div class="img-logo">
-                            <a href="#">
-                                <img src="<?php echo yii::getAlias('@web'. "/theme/img/logos/index-blogger.png") ?>"
+                            <a href="<?php echo \yii\helpers\Url::toRoute('index')?>">
+                                <img src="<?php echo yii::getAlias('@web'. "/theme/img/logos/index-blogger.png") ?>">
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-3 col-md-offset-3">
+                    <div class="col-md-4 col-md-offset-2">
                         <div class="search_form">
-                            <form action="" method="" accept-charset="utf-8">
-                                <div class="input-group input-group pv20">
-                                      <input type="text" class="form-control bg-primary clr-white" placeholder="Search" aria-describedby="sizing-addon1">
-                                      <span class="input-group-addon bg-primary" id="sizing-addon1">
-                                      <a href="#" title="" class="clr-white ">
-                                          <i class="fa fa-search"></i>
-                                      </a>
-                                    </span>
-                                    </div>
-                            </form> 
+                            <div class="col-md-2 pv20">
+                                <button type="button" class="btn btn-primary bg-primary clr-white">
+                                    <i class="fa fa-bars"></i>
+                                </button>
+                            </div>
+                            <div class="col-md-10">
+                                
+                                <form action="" method="" accept-charset="utf-8">
+                                    <div class="input-group input-group pv20">
+                                          <input type="text" class="form-control bg-primary clr-white sec_plac" placeholder="Search" aria-describedby="sizing-addon1">
+                                          <span class="input-group-addon bg-primary" id="sizing-addon1">
+                                          <a href="#" class="clr-white sec_fe_a">
+                                              <i class="fa fa-search"></i>
+                                          </a>
+                                        </span>
+                                        </div>
+                                </form> 
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-3 pv20">
@@ -98,7 +106,7 @@ $this->beginContent('@frontend/views/layouts/_clear.php')
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav ">
                             <li class="">
-                                <a href="#"> Home
+                                <a href="<?php echo \yii\helpers\Url::toRoute('index')?>"> Home
                                 </a>
                             </li>
                             <li class="dropdown">
@@ -112,7 +120,7 @@ $this->beginContent('@frontend/views/layouts/_clear.php')
                                         </a>
                                     </li>
                                     <li class="dropdown-submenu">
-                                        <a href="#" data-toggle="dropdown"> Contact
+                                        <a href="<?php echo \yii\helpers\Url::toRoute('contact')?>"> Contact
                                             
                                         </a>
                                     </li>
@@ -373,7 +381,7 @@ $this->beginContent('@frontend/views/layouts/_clear.php')
                                 </ul>
                             </li>
                             <li class="">
-                                <a href="#"> Contact
+                                <a href="<?php echo Url::toRoute('contact') ?>"> Contact
                                 </a>
                             </li>
                         </ul>
