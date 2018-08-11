@@ -495,112 +495,24 @@ First Qatar Challenges of Cesa...
                         </div>
                     </div>
                 </div>
-                <div class="row mv70">
-                    <div class="col-md-12 text-center">
-                        <div class="btn btn-lg btn-inv-primary no-radius">send a request</div>
-                    </div>
-                </div>
             </div>
         </section>
         <section>
             <div class="container">
                 <div class="row mt60">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div class="text-center mv80">
-                            <h2 class="fw200 text-uppercase mv50">why choose us?</h2>
-                            <p class="fw100">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven
+                    <div class="col-md-12 pv30 bg-lb clr-white">
+                        <div class="text-center mv80 ph20 ">
+                            <h2 class="fw200 text-uppercase mv50 text-left">Visit our new Medical City Hospitals website</h2>
+                            <p class="fw100 clr-white text-left">
+                                We are excited to announce the launch of a website dedicated exclusively to our new Medical City hospitals. The website is part of our commitment to helping patients, and other members of the community, get to know our three new facilities - Qatar Rehabilitation Institute, Women’s Wellness and Research Center, and the Ambulatory Care Center - as well as their staff and services.
+
+                                Our new Medical City hospitals are significantly expanding our capacity and bringing new services and care options to the people of Qatar. Once fully operational, they will house 500 new hospital beds and 3,000 highly trained clinical and support staff.
+
+                                Explore our new hospitals for yourself - with photographs and 360-degree virtual tours and the option to register for guided tours – we are excited for you to meet our new hospitals.
                             </p>
                         </div>
-                    </div>
-                </div>
-                <div class="row mb40">
-                    <div class="col-md-6">
-                        <div class="mt40">
-                            <div class="col-md-12">
-                                <h3 class="fs22 fw100 text-right clr-primary ls1 text-uppercase">years of experience</h3>
-                            </div>
-                            <div class="col-md-3 col-md-offset-9">
-                                <div class="mt10"></div>
-                                <hr style="border-color:black" class="hidden-xs hidden-sm" />
-                                <div class="mb20"></div>
-                            </div>
-                            <div class="col-md-12 text-right">
-                                <p class="clr-primary ls1 lh-160">Lorem ipsum dolor sit amet,
-                                    <br/>consectetur adipisicing elit, sed do eiusmo
-                                    <br/>tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                    <br/>ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehender it in voluptate velit esse</p>
-                            </div>
-                        </div>
-                        <div class="col-md-12 text-right mt30">
-                            <button class="btn-inv-primary btn btn-md no-radius ph30 pv10">learn more</button>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="mt40">
-                            <div class="col-md-10">
-                                <div>
-                                    <div>
-                                        <div class="iconbox2">
-                                            <div class="box-icon">
-                                                <a href="#" class="clr-primary">
-                                                    <i class="icon icon-basic-home fs40"></i>
-                                                </a>
-                                            </div>
-                                            <div class="box-content ml50">
-                                                <div class="box-heading">
-                                                    <h4 class="fw300 text-uppercase ls1 opacity-7">Great Infrastructure</h4>
-                                                </div>
-                                                <div class="box-para mt20">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-10 mt20">
-                                <div>
-                                    <div>
-                                        <div class="iconbox2">
-                                            <div class="box-icon">
-                                                <a href="#" class="clr-primary">
-                                                    <i class="icon icon-basic-magnifier-plus fs40"></i>
-                                                </a>
-                                            </div>
-                                            <div class="box-content ml50">
-                                                <div class="box-heading">
-                                                    <h4 class="fw300 text-uppercase ls1 opacity-7">Good Check Up</h4>
-                                                </div>
-                                                <div class="box-para mt20">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-10 mt20">
-                                <div>
-                                    <div>
-                                        <div class="iconbox2">
-                                            <div class="box-icon">
-                                                <a href="#" class="clr-primary">
-                                                    <i class="icon icon-basic-star fs40"></i>
-                                                </a>
-                                            </div>
-                                            <div class="box-content ml50">
-                                                <div class="box-heading">
-                                                    <h4 class="fw300 text-uppercase ls1 opacity-7"> Experienced Doctors</h4>
-                                                </div>
-                                                <div class="box-para mt20">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="col-md-12 text-right">
+                            <a href="#" class="btn btn-primary bdr0"> More Information </a>
                         </div>
                     </div>
                 </div>
@@ -789,6 +701,439 @@ First Qatar Challenges of Cesa...
                     </div>
                 </div>
             </div>
+        </section>
+        <section id="least_updates">
+            <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 mv40 pv20">
+                            <div class="col-md-8">
+                                <aside class="widget about-widget">
+                                    <h4 class="widget-title clr-white" style="background:#3156a3;">
+                                        <span class='clr-white'>Latest Posts</span>
+                                    </h4>
+                                    <div class="iconbox2">
+                                        <div class="box-icon boXstyl bg-slb" style="margin-left:0 !important;">
+                                            <a href="#" class="clr-primary med_date">
+                                                <p class="fs13pX clr-white pv5 ph5 " style="margin:0;">06 August <br>2018</p>
+                                            </a>
+                                        </div>
+                                        <div class="box-content ml100">
+                                            <div class="box-heading">
+                                                <a href="#" class='clr-black'>
+                                                    <h4 class="fw400 text-uppercase ls1">HMC Cautions against Leaving Children alone in Parked Vehicless</h4>
+                                                    </a>
+                                            </div>
+                                            <div class="box-para mt20">
+                                                <p>Hamad Medical Corporation (HMC) is cautioning the public about the importance of protecting children, the elderly, outdoor workers, and others who may be vulnerable to heat-related illnesses.</p>
+                                            </div>
+                                            <div class="pv10 text-right">
+                                                <a class="btn btn-primary bdr0">Read More >> </a>
+                                            </div>
+                                        </div>
+                                    <div class="seprator4black" style="margin:20px auto !important;"></div>    
+                                    <div class="iconbox2">
+                                        <div class="box-icon boXstyl bg-slb" style="margin-left:0 !important;">
+                                            <a href="#" class="clr-primary med_date">
+                                                <p class="fs13pX clr-white pv5 ph5 " style="margin:0;">05 August <br>2018</p>
+                                            </a>
+                                        </div>
+                                        <div class="box-content ml100">
+                                            <div class="box-heading">
+                                                <a href="#" class='clr-black'>
+                                                    <h4 class="fw400 text-uppercase ls1">Global Incidence Rate for Zika Virus down but CDC Medical Director says Residents Traveling to Endemic Countries must still take Precautions</h4>
+                                                    </a>
+                                            </div>
+                                            <div class="box-para mt20">
+                                                <p>While the global incidence rate for the Zika virus has decreased when compared to this time last year, Dr. Muna Al Maslamani, Medical Director of Hamad Medical Corporation’s (HMC) Communicable Disease Center (CDC), says residents planning to travel to cou</p>
+                                            </div>
+                                            <div class="pv10 text-right">
+                                                <a class="btn btn-primary bdr0">Read More >> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="seprator4black" style="margin:20px auto !important;"></div>
+                                    <div class="iconbox2">
+                                        <div class="box-icon boXstyl bg-slb" style="margin-left:0 !important;">
+                                            <a href="#" class="clr-primary med_date">
+                                                <p class="fs13pX clr-white pv5 ph5 " style="margin:0;">05 August <br>2018</p>
+                                            </a>
+                                        </div>
+                                        <div class="box-content ml100">
+                                            <div class="box-heading">
+                                                <a href="#" class='clr-black'>
+                                                    <h4 class="fw400 text-uppercase ls1">Nearly 35,000 new Organ Donors Registered since Ramadan</h4>
+                                                    </a>
+                                            </div>
+                                            <div class="box-para mt20">
+                                                <p>Nearly 35,000 people have registered to become an organ donor since May when Hamad Medical Corporation (HMC) launched its annual organ donation campaign. The kicked off during Ramadan and will run until the end of this year. Since the Qatar Organ Donor Re</p>
+                                            </div>
+                                            <div class="pv10 text-right">
+                                                <a class="btn btn-primary bdr0">Read More >> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="seprator4black" style="margin:20px auto !important;"></div>    
+                                    <div class="iconbox2">
+                                        <div class="box-icon boXstyl bg-slb" style="margin-left:0 !important;">
+                                            <a href="#" class="clr-primary med_date">
+                                                <p class="fs13pX clr-white pv5 ph5 " style="margin:0;">05 August <br>2018</p>
+                                            </a>
+                                        </div>
+                                        <div class="box-content ml100">
+                                            <div class="box-heading">
+                                                <a href="#" class='clr-black'>
+                                                    <h4 class="fw400 text-uppercase ls1">05 August 2018
+                                                        Rumailah Hospital Introduces first of its kind Mothers Support Group</h4>
+                                                    </a>
+                                            </div>
+                                            <div class="box-para mt20">
+                                                <p>Thought to be the first of its kind in the region, a mother’s support group launched last March at Hamad Medical Corporation’s (HMC) Rumailah Hospital is enabling the parents of children with long-term medical conditions to take a more active role in thei</p>
+                                            </div>
+                                            <div class="pv10 text-right">
+                                                <a class="btn btn-primary bdr0">Read More >> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="seprator4black" style="margin:20px auto !important;"></div>    
+                                    <div>
+                                        <p class="text-center">
+                                            <a href="" class="btn btn-primary bdr0 btn-md">View All >> </a>
+                                        </p>
+                                    </div>
+                                </aside>
+                            </div>       
+                            <div class="col-md-4 mv10">
+                                    <div class="collapse3">
+                                        <div id="accordion3" role="tablist" aria-multiselectable="true" class="panel-group">
+                                            <div class="panel panel-default">
+                                                <div role="tab" id="headingOne-3" class="panel-heading">
+                                                    <a data-toggle="collapse" data-parent="#accordion3" href="#collapseOne-3" aria-expanded="false" aria-controls="collapseOne-3" class="active collapsed">
+                                                        <h4 class="panel-title">
+                                                            <span>
+                                                                <img src="<?php echo yii::getAlias('@web'. "/theme/img/icons/7.png") ?>" alt="">
+                                                            </span>
+                                                                Our Vision
+                                                            <span class="fa fa-chevron-down pull-right mt15"></span>
+                                                        </h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseOne-3" role="tabpanel" aria-labelledby="headingOne-3" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                                                    <p class="panel-body">A general hospital providing healthcare services to the growing population in the northern region of Qatar.​​</p>
+                                                    <p class="pv10 text-right">
+                                                        <a href="" class="btn btn-primary btn-md bdr0">
+                                                            <strong>
+                                                                Visit  Site
+                                                            </strong>   
+                                                            <i class="fa fa-arrow-right"></i>
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default panel-default-custom">
+                                                <div role="tab" id="headingTwo-3" class="panel-heading panel-heading-custom">
+                                                    <a data-toggle="collapse" data-parent="#accordion3" href="#collapseTwo-9" aria-expanded="true" aria-controls="collapseTwo-9" class="">
+                                                        <h4 class="panel-title">
+                                                            <span>
+                                                                <img src="<?php echo yii::getAlias('@web'. "/theme/img/icons/8.png") ?>" alt="">
+                                                            </span>
+                                                            Ambulatory Care Center
+                                                            <span class="fa fa-chevron-down pull-right mt15"></span>
+                                                        </h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseTwo-9" role="tabpanel" aria-labelledby="headingTwo-3" class="panel-collapse collapse in" aria-expanded="true" style="">
+                                                    <p class="panel-body">HMC’s Ambulatory Care Center (ACC) is an innovative new facility offering an exciting new approach to surgical care in Qatar.
+                                                        Patients will have the opportunity to receive the latest treatment using advanced clinical and surgical practices offered within the same day and in a single dedicated location.
+
+
+                                                        This means that within 23 hours of receiving surgery or a medical procedure, patients will be able to leave hospital and return to recover in the comfort of their own home, without the need for an overnight stay. Some inpatient surgical beds will also be available.
+                                                    </p>
+                                                    <p class="pv10 text-right">
+                                                        <a href="" class="btn btn-primary btn-md bdr0">
+                                                            <strong>
+                                                                Visit  Site
+                                                            </strong>   
+                                                            <i class="fa fa-arrow-right"></i>
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default panel-default-custom">
+                                                <div role="tab" id="headingThree-3" class="panel-heading panel-heading-custom">
+                                                    <a data-toggle="collapse" data-parent="#accordion3" href="#collapseThree-10" aria-expanded="false" aria-controls="collapseThree-10" class="collapsed">
+                                                        <h4 class="panel-title">
+                                                            <span>
+                                                                <img src="<?php echo yii::getAlias('@web'. "/theme/img/icons/9.png") ?>" alt="">
+                                                            </span>    
+                                                        Al Wakra Hospital
+                                                            <span class="fa fa-chevron-down pull-right mt15"></span>
+                                                        </h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseThree-10" role="tabpanel" aria-labelledby="headingThree-3" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                                                    <p class="panel-body">
+                                                        Opened in 2012, this impressive general hospital has been designed, built and staffed with changing needs and expectations of the growing community in the country’s south.​
+                                                    </p>
+                                                    <p class="pv10 text-right">
+                                                        <a href="" class="btn btn-primary btn-md bdr0">
+                                                            <strong>
+                                                                Visit  Site
+                                                            </strong>   
+                                                            <i class="fa fa-arrow-right"></i>
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default panel-default-custom">
+                                                <div role="tab" id="headingThree-3" class="panel-heading panel-heading-custom">
+                                                    <a data-toggle="collapse" data-parent="#accordion3" href="#collapseThree-11" aria-expanded="false" aria-controls="collapseThree-11" class="collapsed">
+                                                        <h4 class="panel-title">
+                                                            <span>
+                                                                <img src="<?php echo yii::getAlias('@web'. "/theme/img/icons/10.png") ?>" alt="">
+                                                            </span>    
+                                                        Communicable Disease Center
+                                                            <span class="fa fa-chevron-down pull-right mt15"></span>
+                                                        </h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseThree-11" role="tabpanel" aria-labelledby="headingThree-3" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                                                    <p class="panel-body">
+                                                        Dedicated to the diagnosis, treatment and prevention of infectious diseases as well as education and research, the CDC has a focus on tuberculosis (TB), respiratory diseases and other infectious diseases.
+
+                                                        The Center offers comprehensive inpatient services for infectious disease patients who need hospitalization and also houses outpatient clinics providing services which include pre-marital counseling and education for those with infectious diseases.
+                                                    </p>
+                                                    <p class="pv10 text-right">
+                                                        <a href="" class="btn btn-primary btn-md bdr0">
+                                                            <strong>
+                                                                Visit  Site
+                                                            </strong>   
+                                                            <i class="fa fa-arrow-right"></i>
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default panel-default-custom">
+                                                <div role="tab" id="headingThree-3" class="panel-heading panel-heading-custom">
+                                                    <a data-toggle="collapse" data-parent="#accordion3" href="#collapseThree-12" aria-expanded="false" aria-controls="collapseThree-12" class="collapsed">
+                                                        <h4 class="panel-title">
+                                                            <span>
+                                                                <img src="<?php echo yii::getAlias('@web'. "/theme/img/icons/11.png") ?>" alt="">
+                                                            </span>    
+                                                        Hamad General Hospital
+                                                            <span class="fa fa-chevron-down pull-right mt15"></span>
+                                                        </h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseThree-12" role="tabpanel" aria-labelledby="headingThree-3" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                                                    <p class="panel-body">
+                                                        A modern, 600 plus bed facility that is considered one of the leading tertiary hospitals in the region offering a wide range of medical care and clinical services.
+                                                    </p>
+                                                    <p class="pv10 text-right">
+                                                        <a href="" class="btn btn-primary btn-md bdr0">
+                                                            <strong>
+                                                                Visit  Site
+                                                            </strong>   
+                                                            <i class="fa fa-arrow-right"></i>
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default panel-default-custom">
+                                                <div role="tab" id="headingThree-3" class="panel-heading panel-heading-custom">
+                                                    <a data-toggle="collapse" data-parent="#accordion3" href="#collapseThree-12" aria-expanded="false" aria-controls="collapseThree-12" class="collapsed">
+                                                        <h4 class="panel-title">
+                                                            <span>
+                                                                <img src="<?php echo yii::getAlias('@web'. "/theme/img/icons/12.png") ?>" alt="">
+                                                            </span>    
+                                                       Heart Hospital
+                                                            <span class="fa fa-chevron-down pull-right mv15"></span>
+                                                        </h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseThree-12" role="tabpanel" aria-labelledby="headingThree-3" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                                                    <p class="panel-body">
+                                                       This 116-bed hospital is Hamad Medical Corporation’s specialist tertiary center for delivery of cardiology and cardiovascular surgery in Qatar and delivering the broadest range of specialist cardiac facilities in the country.​
+                                                    </p>
+                                                    <p class="pv10 text-right">
+                                                        <a href="" class="btn btn-primary btn-md bdr0">
+                                                            <strong>
+                                                                Visit  Site
+                                                            </strong>   
+                                                            <i class="fa fa-arrow-right"></i>
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default panel-default-custom">
+                                                <div role="tab" id="headingThree-3" class="panel-heading panel-heading-custom">
+                                                    <a data-toggle="collapse" data-parent="#accordion3" href="#collapseThree-13" aria-expanded="false" aria-controls="collapseThree-13" class="collapsed">
+                                                        <h4 class="panel-title">
+                                                            <span>
+                                                                <img src="<?php echo yii::getAlias('@web'. "/theme/img/icons/13.png") ?>" alt="">
+                                                            </span>    
+                                                        NCCCR
+                                                            <span class="fa fa-chevron-down pull-right mt15"></span>
+                                                        </h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseThree-13" role="tabpanel" aria-labelledby="headingThree-3" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                                                    <p class="panel-body">
+                                                       The National Center for Cancer Care Research (NCCCR) is the premier cancer hospital for the State of Qatar and looks after cancer patients who require ongoing treatments such as chemotherapy and radiotherapy.​
+                                                    </p>
+                                                    <p class="pv10 text-right">
+                                                        <a href="" class="btn btn-primary btn-md bdr0">
+                                                            <strong>
+                                                                Visit  Site
+                                                            </strong>   
+                                                            <i class="fa fa-arrow-right"></i>
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default panel-default-custom">
+                                                <div role="tab" id="headingThree-3" class="panel-heading panel-heading-custom">
+                                                    <a data-toggle="collapse" data-parent="#accordion3" href="#collapseThree-14" aria-expanded="false" aria-controls="collapseThree-14" class="collapsed">
+                                                        <h4 class="panel-title">
+                                                            <span>
+                                                                <img src="<?php echo yii::getAlias('@web'. "/theme/img/icons/14.png") ?>" alt="">
+                                                            </span>    
+                                                        Qatar Rehabilitation Institute
+                                                            <span class="fa fa-chevron-down pull-right mt15"></span>
+                                                        </h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseThree-14" role="tabpanel" aria-labelledby="headingThree-3" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                                                    <p class="panel-body">
+                                                       Qatar Rehabilitation Institute is the region’s largest tertiary rehabilitation hospital, providing world class integrated rehabilitation services and the most technologically advanced patient-centered care.
+                                                    </p>
+                                                    <p class="pv10 text-right">
+                                                        <a href="" class="btn btn-primary btn-md bdr0">
+                                                            <strong>
+                                                                Visit  Site
+                                                            </strong>   
+                                                            <i class="fa fa-arrow-right"></i>
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default panel-default-custom">
+                                                <div role="tab" id="headingThree-3" class="panel-heading panel-heading-custom">
+                                                    <a data-toggle="collapse" data-parent="#accordion3" href="#collapseThree-15" aria-expanded="false" aria-controls="collapseThree-15" class="collapsed">
+                                                        <h4 class="panel-title">
+                                                            <span>
+                                                                <img src="<?php echo yii::getAlias('@web'. "/theme/img/icons/15.png") ?>" alt="">
+                                                            </span>    
+                                                        Rumailah Hospital
+                                                            <span class="fa fa-chevron-down pull-right mt15"></span>
+                                                        </h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseThree-15" role="tabpanel" aria-labelledby="headingThree-3" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                                                    <p class="panel-body">
+                                                        A multi-specialty hospital that provides medical, surgical and long term care for population of QATAR.​
+                                                    </p>
+                                                    <p class="pv10 text-right">
+                                                        <a href="" class="btn btn-primary btn-md bdr0">
+                                                            <strong>
+                                                                Visit  Site
+                                                            </strong>   
+                                                            <i class="fa fa-arrow-right"></i>
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default panel-default-custom">
+                                                <div role="tab" id="headingThree-3" class="panel-heading panel-heading-custom">
+                                                    <a data-toggle="collapse" data-parent="#accordion3" href="#collapseThree-16" aria-expanded="false" aria-controls="collapseThree-16" class="collapsed">
+                                                        <h4 class="panel-title">
+                                                            <span>
+                                                                <img src="<?php echo yii::getAlias('@web'. "/theme/img/icons/16.png") ?>" alt="">
+                                                            </span>    
+                                                        The Cuban Hospital
+                                                            <span class="fa fa-chevron-down pull-right mt15"></span>
+                                                        </h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseThree-16" role="tabpanel" aria-labelledby="headingThree-3" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                                                    <p class="panel-body">
+                                                        A joint venture project between the state of Qatar and the Cuban Government, the hospitals Cuban medical staff services the healthcare needs of the population in the west of Qatar.​
+                                                    </p>
+                                                    <p class="pv10 text-right">
+                                                        <a href="" class="btn btn-primary btn-md bdr0">
+                                                            <strong>
+                                                                Visit  Site
+                                                            </strong>   
+                                                            <i class="fa fa-arrow-right"></i>
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default panel-default-custom">
+                                                <div role="tab" id="headingThree-3" class="panel-heading panel-heading-custom">
+                                                    <a data-toggle="collapse" data-parent="#accordion3" href="#collapseThree-17" aria-expanded="false" aria-controls="collapseThree-17" class="collapsed">
+                                                        <h4 class="panel-title">
+                                                            <span>
+                                                                <img src="<?php echo yii::getAlias('@web'. "/theme/img/icons/17.png") ?>" alt="">
+                                                            </span>    
+                                                        Women's Hospital
+                                                            <span class="fa fa-chevron-down pull-right mt15"></span>
+                                                        </h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseThree-17" role="tabpanel" aria-labelledby="headingThree-3" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                                                    <p class="panel-body">
+                                                        Women’s Hospital delivers a very large obstetric service and is responsible for the vast majority of births in Qatar. 
+ 
+                                                        The hospital helps deliver on average 50 births a day, this makes it one of the busiest of Hamad Medical Corporation’s (HMC) eight hospitals.
+                                                        
+                                                        The facilities offered can be compared to the best in the world. It has 291 inpatient care beds, a large Outpatient Department, an emergency room, 16 labor and delivery suites and three operating theatres.
+                                                    </p>
+                                                    <p class="pv10 text-right">
+                                                        <a href="" class="btn btn-primary btn-md bdr0">
+                                                            <strong>
+                                                                Visit  Site
+                                                            </strong>   
+                                                            <i class="fa fa-arrow-right"></i>
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default panel-default-custom">
+                                                <div role="tab" id="headingThree-3" class="panel-heading panel-heading-custom">
+                                                    <a data-toggle="collapse" data-parent="#accordion3" href="#collapseThree-18" aria-expanded="false" aria-controls="collapseThree-18" class="collapsed">
+                                                        <h4 class="panel-title fs13pX">
+                                                            <span>
+                                                                <img src="<?php echo yii::getAlias('@web'. "/theme/img/icons/18.png") ?>" alt="">
+                                                            </span>    
+                                                        Women’s Wellness & Research Center
+                                                            <span class="fa fa-chevron-down pull-right mt15"></span>
+                                                        </h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseThree-18" role="tabpanel" aria-labelledby="headingThree-3" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                                                    <p class="panel-body">
+                                                        From preconception to childbirth, post-natal care, to women’s wellness and beyond the reproductive phase of life, the Women’s Wellness and Research Center (WWRC) provides women specialized care through all stages of their life.
+
+                                                        As the largest women’s tertiary hospital in the country, we are equipped with a large emergency department with an expanded visitor waiting area, seven operating theatres, 26 delivery rooms, 240 private inpatient rooms with bathrooms and a number of specialized outpatient clinics for obstetrics and gynecology. In addition, WWRC has 112 NICU cots for the care of critically ill newborns.
+
+                                                        The facility is staffed with over 2,000 highly trained clinicians who have extensive experience in gynecology, obstetrics, and newborn care.
+                                                    </p>
+                                                    <p class="pv10 text-right">
+                                                        <a href="" class="btn btn-primary btn-md bdr0">
+                                                            <strong>
+                                                                Visit  Site
+                                                            </strong>   
+                                                            <i class="fa fa-arrow-right"></i>
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>       
+                        </div>
+                    </div>
+                </div>
         </section>
     </div>
 </div>
