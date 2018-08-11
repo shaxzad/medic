@@ -5479,7 +5479,7 @@ a:focus {
 }
 .tab1 .tab-status h4 {
   font-size: 15px;
-  color: #3156a3 !important;
+  color: #fff !important;
   text-transform: uppercase;
   letter-spacing: 1.5px;
 }
@@ -15452,4 +15452,14 @@ form .form-group textarea {
 }
 .bg-aplha-shop-thanku {
   background-color: rgba(0,0,0,0.7);
+}
+
+
+.hide-arrow .fitness-mp-slider .owl-theme .owl-controls .owl-buttons .owl-prev
+{
+  display: none;
+}
+.hide-arrow .fitness-mp-slider .owl-theme .owl-controls .owl-buttons .owl-next
+{
+  display: none;
 }

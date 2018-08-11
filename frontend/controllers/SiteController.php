@@ -79,6 +79,29 @@ class SiteController extends Controller
         return $this->render('hmc_vendors');
     }
 
+    public function actionOurOrganization()
+    {
+        return $this->render('our-organization');
+    }
+    public function actionOurPeople()
+    {
+        return $this->render('our-people');
+    }
+    public function actionStarsExcelence()
+    {
+        return $this->render('stars-of-excelence');
+    }
+    public function actionFindMore()
+    {
+        return $this->render('find-out-more');
+    }
+    public function actionOurPartners()
+    {
+        return $this->render('our-partners');
+    }
+
+
+
     public function actionContact()
     {
         $model = new ContactForm();
