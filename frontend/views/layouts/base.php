@@ -115,52 +115,51 @@ $this->beginContent('@frontend/views/layouts/_clear.php')
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown-submenu click-toggle-nav">
-                                        <a data-toggle="dropdown" data-submenu="data-submenu" aria-expanded="false" class="dropdown-toggle"> About
+                                        <a   href="<?php echo Url::toRoute('our-organization') ?>"> Our Organization
                                             
                                         </a>
                                     </li>
                                     <li class="dropdown-submenu">
-                                        <a href="<?php echo \yii\helpers\Url::toRoute('contact')?>"> Contact
+                                        <a href="<?php echo Url::toRoute('our-people') ?>" data-toggle="dropdown"> Our People
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-submenu">
+                                        <a href="<?php echo Url::toRoute('accreditations') ?>" data-toggle="dropdown"> Our Accreditations
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-submenu">
+                                        <a href="<?php echo Url::toRoute('stars-excelence') ?>" data-toggle="dropdown"> Stars Of Excellence
                                             
                                         </a>
                                     </li>
                                     <li class="dropdown-submenu">
-                                        <a href="#" data-toggle="dropdown"> Gallery
-                                            
+                                        <a href="<?php echo Url::toRoute('our-partners') ?>" data-toggle="dropdown"> Our Partners
                                         </a>
                                     </li>
                                     <li class="dropdown-submenu">
-                                        <a href="#" data-toggle="dropdown"> Team
-                                            
-                                        </a>
-                                    </li>
-                                    <li class="dropdown-submenu">
-                                        <a href="#" data-toggle="dropdown"> Services
-                                        </a>
-                                    </li>
-                                    <li class="dropdown-submenu">
-                                        <a href="#" data-toggle="dropdown"> Login
+                                        <a href="<?php echo Url::toRoute('find-more') ?>" data-toggle="dropdown"> Find Out more
                                             
                                         </a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" data-toggle="dropdown" data-submenu="data-submenu" aria-expanded="false" class="dropdown-toggle"> Education and Reserch
+                                <a href="#" data-toggle="dropdown" data-submenu="data-submenu" aria-expanded="false" class="dropdown-toggle"> Academic Health System
                                     <span class="fa fa-angle-down"></span>
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown-submenu">
-                                        <a href="#" data-toggle="dropdown"> Icons
+                                        <a href="#" data-toggle="dropdown"> Medical Education
                                             
                                         </a>
                                     </li>
                                     <li class="dropdown-submenu">
-                                        <a href="#" data-toggle="dropdown"> Sliders
+                                        <a href="#" data-toggle="dropdown">
+                                            Medical Research
                                         </a>
                                     </li>
                                     <li class="dropdown-submenu">
-                                        <a href="#" data-toggle="dropdown"> Counters
+                                        <a href="#" data-toggle="dropdown"> Translational Research Institute
                                         </a>
                                     </li>
                                     <li class="dropdown-submenu">
@@ -169,7 +168,7 @@ $this->beginContent('@frontend/views/layouts/_clear.php')
                                         </a>
                                     </li>
                                     <li class="dropdown-submenu">
-                                        <a href="#" data-toggle="dropdown"> Sidebars
+                                        <a href="#" data-toggle="dropdown"> Hamad International Training Center
                                         </a>
                                     </li>
                                 </ul>
@@ -180,19 +179,15 @@ $this->beginContent('@frontend/views/layouts/_clear.php')
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown-submenu">
-                                        <a href="#" > Box
+                                        <a href="#" > Press Releses
                                         </a>
                                     </li>
                                     <li class="dropdown-submenu">
-                                        <a href="#" > Box(gutter)
+                                        <a href="#" > Media Library
                                         </a>
                                     </li>
                                     <li class="dropdown-submenu">
-                                        <a href="#" > Wide
-                                        </a>
-                                    </li>
-                                    <li class="dropdown-submenu">
-                                        <a href="#" > Wide(gutter)
+                                        <a href="#" > Media Contact Information
                                         </a>
                                     </li>
                                 </ul>
