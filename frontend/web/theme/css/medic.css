@@ -121,6 +121,58 @@
 .msgBoX a:hover{
 	color: black;
 }
+.bg-lb{
+	background: #55bceb !important;
+}
+.clr-lb{
+	background: #55bceb !important;
+}
+.clr-slb{
+	background: #337ab7 !important;
+}
+.med_date{
+	height: 50px;
+	width: 80px;
+	background: #55bceb;
+}
+.fs10pX {
+	font-size: 10px !important;
+}
+.fs11pX {
+	font-size: 11px !important;
+}
+.fs12pX {
+	font-size: 12px !important;
+}
+.fs13pX {
+	font-size: 13px !important;
+}
+
+.boXstyl{
+	padding: 2px;
+	background: #337ab7;
+	color: white !important;
+	top:20px;
+
+}
+.boXstyl::after{
+	content: '';
+	position: absolute;
+	background: #3156A3;
+	height: 10px;
+	width: 10px;
+	top:2px;
+	right:-5px;
+	transform: rotate(45deg);
+	z-index: -1;
+}
+.boXstyl:hover{
+	background: #3156A3;
+
+}
+.boXstyl:focus{
+	background: #3156A3;
+
 .joinus h3
 {
 	font-size: 24px;
