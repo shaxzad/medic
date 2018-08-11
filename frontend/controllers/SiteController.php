@@ -100,6 +100,28 @@ class SiteController extends Controller
         return $this->render('our-partners');
     }
 
+    public function actionAcadmicSystem()
+    {
+        return $this->render('acadmic-system');
+    }
+    public function actionMedicalEducation()
+    {
+        return $this->render('medical-education');
+    }
+    public function actionMedicalReserch()
+    {
+        return $this->render('medical-reserch');
+    }
+    public function actionTranslationReserch()
+    {
+        return $this->render('translation-reserch');
+    }
+    public function actionHamadTrainingCenter()
+    {
+        return $this->render('hamad-training-center');
+    }
+
+
 
 
     public function actionContact()
