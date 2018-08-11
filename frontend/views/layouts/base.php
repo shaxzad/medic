@@ -203,11 +203,11 @@ $this->beginContent('@frontend/views/layouts/_clear.php')
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown-submenu">
-                                        <a href="#" data-toggle="dropdown"> 2 Columnns
+                                        <a href="<?php echo Url::toRoute('hmc-vendors') ?>" data-toggle="dropdown"> HMC Vendors
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="blog-col-3.html"> 3 Columns</a>
+                                        <a href="<?php echo Url::toRoute('health-care') ?>"> Health Care</a>
                                     </li>
                                 </ul>
                             </li>
@@ -217,11 +217,24 @@ $this->beginContent('@frontend/views/layouts/_clear.php')
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown-submenu">
-                                        <a href="#" data-toggle="dropdown"> 2 Columnns
+                                        <a href="<?php echo Url::toRoute('overview') ?>" data-toggle="dropdown"> Overview
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="blog-col-3.html"> 3 Columns</a>
+                                    <li class="dropdown-submenu">
+                                        <a href="<?php echo Url::toRoute('qatrization') ?>" data-toggle="dropdown"> Qatrization
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-submenu">
+                                        <a href="<?php echo Url::toRoute('staff-testimonial') ?>" data-toggle="dropdown"> Staff Testimonial
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-submenu">
+                                        <a href="<?php echo Url::toRoute('edu-training') ?>" data-toggle="dropdown"> Education and Training
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-submenu">
+                                        <a href="<?php echo Url::toRoute('oppertunites-work') ?>" data-toggle="dropdown"> Oppertunites To work with
+                                        </a>
                                     </li>
                                 </ul>
                             </li>
@@ -403,13 +416,13 @@ $this->beginContent('@frontend/views/layouts/_clear.php')
                 <div class="row mv40">
                         <div class="col-md-12 footer-links">                                
                             <div class="col-md-4 box1">
-                                <a href="<?php echo \yii\helpers\Url::toRoute('aboutus')?>" title="">About Us</a>
+                                <a href="<?php echo Url::toRoute('aboutus')?>" title="">About Us</a>
                             </div>
                             <div class="col-md-4 box2">
-                                <a href="" title="<?php echo \yii\helpers\Url::toRoute('accreditations')?>">Our Accreditations</a>
+                                <a href="<?php echo Url::toRoute('accreditations')?>" title="">Our Accreditations</a>
                             </div>
                             <div class="col-md-4 box3">
-                                <a href="<?php echo \yii\helpers\Url::toRoute('aboutus')?>" title="">National Insurance Scheme</a>
+                                <a href="<?php echo Url::toRoute('aboutus')?>" title="">National Insurance Scheme</a>
                             </div>
                         </div>
                 </div>    
