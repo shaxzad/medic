@@ -144,31 +144,33 @@ $this->beginContent('@frontend/views/layouts/_clear.php')
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" data-toggle="dropdown" data-submenu="data-submenu" aria-expanded="false" class="dropdown-toggle"> Academic Health System
+                                <a href="#" data-toggle="dropdown" data-submenu="data-submenu" aria-expanded="false" class="dropdown-toggle"> Education and Reserch
                                     <span class="fa fa-angle-down"></span>
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown-submenu">
-                                        <a href="#" data-toggle="dropdown"> Medical Education
+                                        <a href="<?php echo Url::toRoute('acadmic-system') ?>" data-toggle="dropdown">
+                                           Acadmic Health System
                                             
                                         </a>
                                     </li>
                                     <li class="dropdown-submenu">
-                                        <a href="#" data-toggle="dropdown">
+                                        <a href="<?php echo Url::toRoute('medical-education') ?>" data-toggle="dropdown">
+                                            Medical Education
+                                            
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-submenu">
+                                        <a href="<?php echo Url::toRoute('medical-reserch') ?>" data-toggle="dropdown">
                                             Medical Research
                                         </a>
                                     </li>
                                     <li class="dropdown-submenu">
-                                        <a href="#" data-toggle="dropdown"> Translational Research Institute
+                                        <a href="<?php echo Url::toRoute('translation-reserch') ?>" data-toggle="dropdown"> Translational Research Institute
                                         </a>
                                     </li>
                                     <li class="dropdown-submenu">
-                                        <a href="#" data-toggle="dropdown"> Headers
-                                            
-                                        </a>
-                                    </li>
-                                    <li class="dropdown-submenu">
-                                        <a href="#" data-toggle="dropdown"> Hamad International Training Center
+                                        <a href="<?php echo Url::toRoute('hamad-training-center') ?>" data-toggle="dropdown"> Training center
                                         </a>
                                     </li>
                                 </ul>
