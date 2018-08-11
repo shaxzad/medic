@@ -35,6 +35,73 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+    public function actionAboutus()
+    {
+        return $this->render('aboutus');
+    }
+
+    public function actionAccreditations()
+    {
+        return $this->render('accreditations');
+    }
+
+
+    // these actions for join us tab in navbar start here
+    public function actionOverview()
+    {
+        return $this->render('overview');
+    }
+    public function actionQatrization()
+    {
+        return $this->render('qatrization');
+    }
+    public function actionEduTraining()
+    {
+        return $this->render('edu-training');
+    }   
+    public function actionStaffTestimonial()
+    {
+        return $this->render('staff_testimonial');
+    }
+    public function actionOppertunitesWork()
+    {
+        return $this->render('oppertunites_work');
+    }
+    // these actions for join us tab in navbar end here
+    
+    public function actionHealthCare()
+    {
+        return $this->render('health_care');
+    }
+
+    public function actionHmcVendors()
+    {
+        return $this->render('hmc_vendors');
+    }
+
+    public function actionOurOrganization()
+    {
+        return $this->render('our-organization');
+    }
+    public function actionOurPeople()
+    {
+        return $this->render('our-people');
+    }
+    public function actionStarsExcelence()
+    {
+        return $this->render('stars-of-excelence');
+    }
+    public function actionFindMore()
+    {
+        return $this->render('find-out-more');
+    }
+    public function actionOurPartners()
+    {
+        return $this->render('our-partners');
+    }
+
+
+
     public function actionContact()
     {
         $model = new ContactForm();
