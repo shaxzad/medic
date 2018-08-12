@@ -123,6 +123,92 @@ class SiteController extends Controller
 
 
 
+    public function actionAlKhorHospital()
+    {
+        return $this->render('al-khor-hospital');
+    }
+    public function actionAlWakraHospital()
+    {
+        return $this->render('al-wakra-hospital');
+    }
+    public function actionAmbulatoryCareCenter()
+    {
+        return $this->render('ambulatory-care-center');
+    }
+    public function actionCommunicableDiseaseCenter()
+    {
+        return $this->render('communicable-disease-center');
+    }
+    public function actionHamadGeneralHospital()
+    {
+        return $this->render('hamad-general-hospital');
+    }
+    public function actionHeartHospital()
+    {
+        return $this->render('heart-hospital');
+    }
+    public function actionNcccr()
+    {
+        return $this->render('ncccr');
+    }
+    public function actionQatarMetabolicInstitute()
+    {
+        return $this->render('qatar-metabolic-institute');
+    }
+    public function actionQatarRehabilitationInstitute()
+    {
+        return $this->render('qatar-rehabilitation-institute');
+    }
+    public function actionRumailahHospital()
+    {
+        return $this->render('rumailah-hospital');
+    }
+    public function actionCubanHospital()
+    {
+        return $this->render('cuban-hospital');
+    }
+    public function actionWomensHospital()
+    {
+        return $this->render('womens-hospital');
+    }
+    public function actionWomenReserchCenter()
+    {
+        return $this->render('women-reserch-center');
+    }
+    public function actionContinuingCare()
+    {
+        return $this->render('continuing-care');
+    }
+    public function actionTabaccoControlCenter()
+    {
+        return $this->render('tabacco-control-center');
+    }
+
+
+    public function actionEnyaSpecializedCare()
+    {
+        return $this->render('enya-specialized-care');
+    }
+    public function actionExpansionPlus()
+    {
+        return $this->render('expansion-plus');
+    }
+    public function actionMedicalAffairsOffic()
+    {
+        return $this->render('medical-affairs-offic');
+    }
+    public function actionNursing()
+    {
+        return $this->render('nursing');
+    }
+
+    public function actionPecs()
+    {
+        return $this->render('pecs');
+    }
+
+
+
 
     public function actionContact()
     {
