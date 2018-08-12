@@ -21,16 +21,19 @@ use yii\helpers\Html;
 								<a href="#1tab" aria-controls="1tab" role="tab" data-toggle="tab">Home</a>
 							</li>
 							<li role="presentation">
-								<a href="#2tab" aria-controls="2tab" role="tab" data-toggle="tab">Our Services</a>
+								<a href="#2tab" aria-controls="2tab" role="tab" data-toggle="tab">About</a>
 							</li>
 							<li role="presentation">
-								<a href="#3tab" aria-controls="3tab" role="tab" data-toggle="tab">Patients and Visitors</a>
+								<a href="#3tab" aria-controls="3tab" role="tab" data-toggle="tab">Our Services</a>
 							</li>
 							<li role="presentation">
-								<a href="#4tab" aria-controls="4tab" role="tab" data-toggle="tab">News And Events</a>
+								<a href="#4tab" aria-controls="4tab" role="tab" data-toggle="tab">Patients and Visitors</a>
 							</li>
 							<li role="presentation">
-								<a href="#5tab" aria-controls="5tab" role="tab" data-toggle="tab">Contact Us</a>
+								<a href="#5tab" aria-controls="5tab" role="tab" data-toggle="tab">News and Events</a>
+							</li>
+							<li role="presentation">
+								<a href="#6tab" aria-controls="6tab" role="tab" data-toggle="tab">Contact Us</a>
 							</li>
 						</ul>
 						<div class="tab-content">
@@ -119,7 +122,7 @@ use yii\helpers\Html;
 									</div>
 
 									<div class="row">
-										<div class="col-md-4">
+										<div class="col-md-4 mv50">
 											<div class="iconbox2">
 												<div class="box-icon">
 													<a href="#" class="clr-primary">
@@ -152,6 +155,20 @@ use yii\helpers\Html;
 												</div>
 											</div>
 										</div>
+										<div class="col-md-4 mt50">
+											<div class="contact-acadmic">
+												<h3>Contact Us</h3>
+												<div >
+													<p><i class="fa fa-phone"></i>(+974) 4439 0440</p>
+												</div>
+												<div >
+													<p><i class="fa fa-mobile"></i>(+974) 4439 0440</p>
+												</div>
+												<div >
+													<p><i class="fa fa-user"></i> ahs@hamad.qa</p>
+												</div>
+											</div>
+										</div>
 										<div class="col-md-4 mv50">
 											<div class="iconbox2" style="margin-top: 10px;">
 												<div class="box-icon">
@@ -170,73 +187,81 @@ use yii\helpers\Html;
 												</div>
 											</div>
 										</div>
-
-										
-										<div class="col-md-4 mv50">
-											<div class="contact-acadmic">
-												<h3>Contact Us</h3>
-												<div >
-													<p><i class="fa fa-phone"></i>(+974) 4439 0440</p>
-												</div>
-												<div >
-													<p><i class="fa fa-mobile"></i>(+974) 4439 0440</p>
-												</div>
-												<div >
-													<p><i class="fa fa-user"></i> ahs@hamad.qa</p>
-												</div>
+									</div>
+									<div class="row">
+										<div class="alwakraBoxTitle" style="font-size: 18px;">How to find us
+										</div>
+										<div class="col-md-6">
+											<div class="box50" style="font-size: 14px;">
+												<br><br><br>
+												<a href="/EN/Hospitals-and-services/Al-Khor-Hospital/Pages/Map.aspx" class="maplink" style="font-size: 14px;">
+													<div class="map_background" style="font-size: 14px;">
+														<div class="transbox" style="font-size: 14px;">
+															<p style="font-size: 19px;">Click here to view directions on Google maps 
+															</p>
+														</div>&nbsp;
+													</div>
+												</a>
 											</div>
+										</div>
+										<div class="col-md-6">
+											<img src="<?php echo yii::getAlias('@web'). '/theme/img/hospitals/AKH-Banner.jpg'; ?>" alt="">
 										</div>
 									</div>
 								</div>
 							</div>
 							<div role="tabpanel" id="2tab" class="tab-pane fade">
 								<div class="tab-status">
-									<h4>Supply Chain Management</h4>
-									<br>
-									<br>
 									<div class="mb20">
-									<img src="<?php echo yii::getAlias('@web'). '/theme/img/quicklinks/2.jpg'; ?>" alt="" class="img-responsive" style="width: 100%">
-									<ul class="decimal">
-										<li>
-											In 2010, Hamad Medical Corporation (HMC) continued its challenging journey of transformation, with the goal of turning its hospitals into true Academic Health Centers. HMC is seeking, as an organization, to evolve into a thriving Academic Health System that links together health, education and research, powered by the synergies between itself and its academic partners. 
-										</li>
-										<li>
-											This highly ambitious partnership is carried out in close collaboration with Weill Cornell Medical College in Qatar (WCMC-Q) and other academic partners in Qatar and internationally. 
-										</li>
-										<li>	 
-											This journey of transformation also includes the forging of meaningful relationships with partners across a wide range of health and allied health-related domains. Our current partners include Qatar University, the University of Calgary – Qatar, College of the North Atlantic – Qatar, Sidra Medical and Research Center, and Primary Health Care Corporation. 
-										</li>
-										<li>	 
-											Launched in August 2011, the Academic Health System will generate significant positive impact upon patient care, medical education and medical research. The strength of the proposal results from the intertwining of these central activities to improve health and wellbeing whilst expanding the boundaries of knowledge and ensuring a modern, flexible and sustainable workforce. The initiative represents a major milestone in HMC’s development as Qatar’s leading healthcare provider through the delivery of world-class health care, medical education and research excellence. A key element of the initiative will be wider community engagement through developing a deeper social conscience and bestowing tangible economic and health benefits on the community.
-											Full documents for the floated tenders can be obtained from the Supply Chain Management Reception Office, during working hours between 7:00-11:00 AM against the non-refundable payment of:
-										</li>
-									</ul>
+									<img src="<?php echo yii::getAlias('@web'). '/theme/img/hospitals/2.jpg'; ?>" alt="" class="img-responsive" style="width: 100%">
+									<div class="col-md-8 mv30">
+										<p>
+										Opened in 2005, Al Khor Hospital is a 115-bed general hospital and one of Hamad Medical Corporation’s community hospitals delivering high quality specialized care to the population living outside of Doha.
+										</p>
+										<p>
+											Al Khor Hospital is committed to providing these high quality healthcare services to its diverse and growing community in the northern region of Qatar by integrating medical care, education and research. Since opening, Al Khor Hospital has been recognized for its pioneering achievements in the healthcare service and received Joint Commission International accreditation in 2006 and was re-accredited in 2009, 2012 and 2016. 
+										</p>
+										<p>
+											The hospital hosts an Antenatal and Postnatal Exercise Center, which is unique to HMC, as well as a Breastfeeding Resource Center – an important step in Al Khor Hospital’s endeavor to attain recognition by the World Health Organization as a baby-friendly hospital. 
+										</p>
+										<p>
+											The hospital also has new offices of Home Healthcare Services to provide homecare administrative support to patients and families from Al Khor and the surrounding region. The offices serve as a base from which the Home Healthcare teams conduct their home visits.
+										</p>
+										<p>
+											Whether it’s the Emergency Department, Intensive Care Unit, Pediatrics, Obstetrics and Gynecology, Radiology, Dermatology, Psychiatry or Surgery – Al Khor Hospital is committed to providing the safest, most effective and most compassionate care to each and every one of our patients.
+										</p>
+									</div>
+									<div class="col-md-4 mv50">
+										<img src="<?php echo yii::getAlias('@web'). '/theme/img/hospitals/2.jpg'; ?>" class="img-responsive" alt="">
+									</div>
 									</div>
 								</div>
 							</div>
 
 							<div role="tabpanel" id="3tab" class="tab-pane fade in">
 								<div class="tab-status">
-									<h4>Supply Chain Management</h4>
-									<br>
-									<br>
 									<div class="mb20">
-									<img src="<?php echo yii::getAlias('@web'). '/theme/img/edureserch/3.jpg'; ?>" alt="" class="img-responsive" style="width: 100%">
-									<ul class="decimal">
-										<li>
-											In 2010, Hamad Medical Corporation (HMC) continued its challenging journey of transformation, with the goal of turning its hospitals into true Academic Health Centers. HMC is seeking, as an organization, to evolve into a thriving Academic Health System that links together health, education and research, powered by the synergies between itself and its academic partners. 
-										</li>
-										<li>
-											This highly ambitious partnership is carried out in close collaboration with Weill Cornell Medical College in Qatar (WCMC-Q) and other academic partners in Qatar and internationally. 
-										</li>
-										<li>	 
-											This journey of transformation also includes the forging of meaningful relationships with partners across a wide range of health and allied health-related domains. Our current partners include Qatar University, the University of Calgary – Qatar, College of the North Atlantic – Qatar, Sidra Medical and Research Center, and Primary Health Care Corporation. 
-										</li>
-										<li>	 
-											Launched in August 2011, the Academic Health System will generate significant positive impact upon patient care, medical education and medical research. The strength of the proposal results from the intertwining of these central activities to improve health and wellbeing whilst expanding the boundaries of knowledge and ensuring a modern, flexible and sustainable workforce. The initiative represents a major milestone in HMC’s development as Qatar’s leading healthcare provider through the delivery of world-class health care, medical education and research excellence. A key element of the initiative will be wider community engagement through developing a deeper social conscience and bestowing tangible economic and health benefits on the community.
-											Full documents for the floated tenders can be obtained from the Supply Chain Management Reception Office, during working hours between 7:00-11:00 AM against the non-refundable payment of:
-										</li>
-									</ul>
+									<img src="<?php echo yii::getAlias('@web'). '/theme/img/hospitals/2.jpg'; ?>" alt="" class="img-responsive" style="width: 100%">
+									<div class="col-md-8 mv30">
+										<p>
+										Opened in 2005, Al Khor Hospital is a 115-bed general hospital and one of Hamad Medical Corporation’s community hospitals delivering high quality specialized care to the population living outside of Doha.
+										</p>
+										<p>
+											Al Khor Hospital is committed to providing these high quality healthcare services to its diverse and growing community in the northern region of Qatar by integrating medical care, education and research. Since opening, Al Khor Hospital has been recognized for its pioneering achievements in the healthcare service and received Joint Commission International accreditation in 2006 and was re-accredited in 2009, 2012 and 2016. 
+										</p>
+										<p>
+											The hospital hosts an Antenatal and Postnatal Exercise Center, which is unique to HMC, as well as a Breastfeeding Resource Center – an important step in Al Khor Hospital’s endeavor to attain recognition by the World Health Organization as a baby-friendly hospital. 
+										</p>
+										<p>
+											The hospital also has new offices of Home Healthcare Services to provide homecare administrative support to patients and families from Al Khor and the surrounding region. The offices serve as a base from which the Home Healthcare teams conduct their home visits.
+										</p>
+										<p>
+											Whether it’s the Emergency Department, Intensive Care Unit, Pediatrics, Obstetrics and Gynecology, Radiology, Dermatology, Psychiatry or Surgery – Al Khor Hospital is committed to providing the safest, most effective and most compassionate care to each and every one of our patients.
+										</p>
+									</div>
+									<div class="col-md-4 mv50">
+										<img src="<?php echo yii::getAlias('@web'). '/theme/img/hospitals/2.jpg'; ?>" class="img-responsive" alt="">
+									</div>
 									</div>
 								</div>
 							</div>
@@ -244,61 +269,162 @@ use yii\helpers\Html;
 
 							<div role="tabpanel" id="4tab" class="tab-pane fade in">
 								<div class="tab-status">
-									<div class="row">
-										<div class="col-md-12">
-											<hr>
+									<div class="mb20">
+									<img src="<?php echo yii::getAlias('@web'). '/theme/img/hospitals/2.jpg'; ?>" alt="" class="img-responsive" style="width: 100%">
+									<div class="col-md-8 mv30">
+										<p>
+											We hope to provide you with all the practical advice you need to make your stay or visit as comfortable and smooth as possible.
+										</p>
+										<p>
+											As a hospital, we constantly strive to achieve the highest levels of patient care. If you are unable to find the patient or visitor information you are looking for, please contact:
+
+										</p>
+										<div>
+											<strong>Mr. Abdul Wahab</strong>
+											<p>
+												Nesma’ak Customer Service Center Manager
+											</p>
+											<p>	
+												Telephone: (+974) 4474 5429
+											</p>
+												Fax: (+974) 4474 5497
+											<p>
+												E-mail: aalmeraikhi@hamad.qa
+											</p>
 										</div>
 									</div>
-									<div class="row">
-										<div class="col-md-8">
-											<div class="mv30">
-												<h3>
-													Collecting medication supplies – change of location
-												</h3>
-												<strong>Dear All,</strong>
-												<p>
-													Please be informed that effective from 1 November, 2015, all cold chain medication supplies will be collected and dispatched from the Hamad General Hospital (HGH) Supply Chain Management Main Store (the main cold room) and not from Al-Wakra hospital.
-												</p>
-												<p>
-													To ensure your facility is supplied effectively and on time, please follow the guidelines below:
-												</p>
-												<ul>
-													<li>
-														Please comply with the agreed scheduled time to collect your supplies
-													</li>
-													<li>
-														To ensure you receive your supply on the agreed scheduled days, requests should be made a minimum of two days before your supply day - late requests will be delayed until the next scheduled supply days
-													</li>
-													<li>
-														For Primary Health Centers, cold trucks belonging to PHCC will distribute the items to the relevant centers
-													</li>
-													<li>
-														Other external facilities, including private facilities, need to come directly to HGH Main Store to collect their medications after submitting their requests in advance.
-													</li>
-													<li>
-														For any urgent requests, your representative should come directly to the HGH main store with the original request and cold box to collect the medication on the same day
-													</li>
-													<li>
-														To contact the HGH Main Store directly from 1 November, 2015, use the following numbers:
-														<ul>
-															<li>
-																4439 1243 & 4439 2301 - Cold Room Supervisor
-															</li>
-															<li>
-																4439 1513 & 4439 2463 - Distribution and Customers Services
-															</li>
-															<li>
-																4439 2826 - Medicine Section Control Office
-															</li>
+									<div class="col-md-4 mv50">
+										<img src="<?php echo yii::getAlias('@web'). '/theme/img/hospitals/2.jpg'; ?>" class="img-responsive" alt="">
+									</div>
+									</div>
+								</div>
+							</div>
 
-														</ul>
-													</li>
-												</ul>
-											</div>  
-										</div>
-										<div class="col-md-4">
-											
-										</div>
+
+							<div role="tabpanel" id="5tab" class="tab-pane fade in">
+								<div class="tab-status">
+									<div class="col-md-12">
+		                                <aside class="widget about-widget">
+		                                    <h4 class="widget-title clr-white" style="background:#3156a3;">
+		                                        <span class='clr-white'>News And Events</span>
+		                                    </h4>
+		                                    <div class="iconbox2">
+		                                        <div class="box-icon boXstyl bg-slb" style="margin-left:0 !important;">
+		                                            <a href="#" class="clr-primary med_date">
+		                                                <p class="fs13pX clr-white pv5 ph5 " style="margin:0;">06 August <br>2018</p>
+		                                            </a>
+		                                        </div>
+		                                        <div class="box-content ml100">
+		                                            <div class="box-heading">
+		                                                <a href="#" class='clr-black'>
+		                                                    <h4 class="fw400 text-uppercase ls1">HMC Cautions against Leaving Children alone in Parked Vehicless</h4>
+		                                                    </a>
+		                                            </div>
+		                                            <div class="box-para mt20">
+		                                                <p>Hamad Medical Corporation (HMC) is cautioning the public about the importance of protecting children, the elderly, outdoor workers, and others who may be vulnerable to heat-related illnesses.</p>
+		                                            </div>
+		                                            <div class="pv10 text-right">
+		                                                <a class="btn btn-primary bdr0">Read More >> </a>
+		                                            </div>
+		                                        </div>
+		                                    <div class="seprator4black" style="margin:20px auto !important;"></div>    
+		                                    <div class="iconbox2">
+		                                        <div class="box-icon boXstyl bg-slb" style="margin-left:0 !important;">
+		                                            <a href="#" class="clr-primary med_date">
+		                                                <p class="fs13pX clr-white pv5 ph5 " style="margin:0;">05 August <br>2018</p>
+		                                            </a>
+		                                        </div>
+		                                        <div class="box-content ml100">
+		                                            <div class="box-heading">
+		                                                <a href="#" class='clr-black'>
+		                                                    <h4 class="fw400 text-uppercase ls1">Global Incidence Rate for Zika Virus down but CDC Medical Director says Residents Traveling to Endemic Countries must still take Precautions</h4>
+		                                                    </a>
+		                                            </div>
+		                                            <div class="box-para mt20">
+		                                                <p>While the global incidence rate for the Zika virus has decreased when compared to this time last year, Dr. Muna Al Maslamani, Medical Director of Hamad Medical Corporation’s (HMC) Communicable Disease Center (CDC), says residents planning to travel to cou</p>
+		                                            </div>
+		                                            <div class="pv10 text-right">
+		                                                <a class="btn btn-primary bdr0">Read More >> </a>
+		                                            </div>
+		                                        </div>
+		                                    </div>
+		                                    <div class="seprator4black" style="margin:20px auto !important;"></div>
+		                                    <div class="iconbox2">
+		                                        <div class="box-icon boXstyl bg-slb" style="margin-left:0 !important;">
+		                                            <a href="#" class="clr-primary med_date">
+		                                                <p class="fs13pX clr-white pv5 ph5 " style="margin:0;">05 August <br>2018</p>
+		                                            </a>
+		                                        </div>
+		                                        <div class="box-content ml100">
+		                                            <div class="box-heading">
+		                                                <a href="#" class='clr-black'>
+		                                                    <h4 class="fw400 text-uppercase ls1">Nearly 35,000 new Organ Donors Registered since Ramadan</h4>
+		                                                    </a>
+		                                            </div>
+		                                            <div class="box-para mt20">
+		                                                <p>Nearly 35,000 people have registered to become an organ donor since May when Hamad Medical Corporation (HMC) launched its annual organ donation campaign. The kicked off during Ramadan and will run until the end of this year. Since the Qatar Organ Donor Re</p>
+		                                            </div>
+		                                            <div class="pv10 text-right">
+		                                                <a class="btn btn-primary bdr0">Read More >> </a>
+		                                            </div>
+		                                        </div>
+		                                    </div>
+		                                    <div class="seprator4black" style="margin:20px auto !important;"></div>    
+		                                    <div class="iconbox2">
+		                                        <div class="box-icon boXstyl bg-slb" style="margin-left:0 !important;">
+		                                            <a href="#" class="clr-primary med_date">
+		                                                <p class="fs13pX clr-white pv5 ph5 " style="margin:0;">05 August <br>2018</p>
+		                                            </a>
+		                                        </div>
+		                                        <div class="box-content ml100">
+		                                            <div class="box-heading">
+		                                                <a href="#" class='clr-black'>
+		                                                    <h4 class="fw400 text-uppercase ls1">05 August 2018
+		                                                        Rumailah Hospital Introduces first of its kind Mothers Support Group</h4>
+		                                                    </a>
+		                                            </div>
+		                                            <div class="box-para mt20">
+		                                                <p>Thought to be the first of its kind in the region, a mother’s support group launched last March at Hamad Medical Corporation’s (HMC) Rumailah Hospital is enabling the parents of children with long-term medical conditions to take a more active role in thei</p>
+		                                            </div>
+		                                            <div class="pv10 text-right">
+		                                                <a class="btn btn-primary bdr0">Read More >> </a>
+		                                            </div>
+		                                        </div>
+		                                    </div>
+		                                    <div class="seprator4black" style="margin:20px auto !important;"></div>    
+		                                    <div>
+		                                        <p class="text-center">
+		                                            <a href="" class="btn btn-primary bdr0 btn-md">View All >> </a>
+		                                        </p>
+		                                    </div>
+		                                </aside>
+                            		</div>
+								</div>
+							</div>
+
+
+							<div role="tabpanel" id="6tab" class="tab-pane fade in">
+								<div class="tab-status">
+									<div class="mb20">
+									<img src="<?php echo yii::getAlias('@web'). '/theme/img/hospitals/2.jpg'; ?>" alt="" class="img-responsive" style="width: 100%">
+									<div class="col-md-12 mv30">
+										<p>
+											Please contact us:
+											<br>
+											<strong>By phone </strong>: (+974) 4474 5555
+											<br>
+											<strong>By fax</strong> : (+974) 4474 5281
+											<br>
+											<strong>HMC Customer Service Center – Nesma’ak </strong>– 16060 (Sunday to Thursday 7am to 10pm, Friday 2pm to 10pm, Saturday 10am to 6pm)
+											<br>
+											<strong>
+											Via email </strong>: nesmaak@hamad.qa
+											<br>
+											<strong>Via mail</strong> : Al Khor Hospital, P.O. Box: 3050, Doha – Qatar
+											<br>
+											We welcome your comments, questions, concerns, and feedback.
+										</p>
+									</div>
 									</div>
 								</div>
 							</div>
