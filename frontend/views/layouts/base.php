@@ -23,7 +23,7 @@ $this->beginContent('@frontend/views/layouts/_clear.php')
                     <div class="col-md-4 col-md-offset-2">
                         <div class="search_form">
                             <div class="col-md-2 pv20">
-                                <button type="button" class="btn btn-primary bg-primary clr-white">
+                                <button type="button" class="btn btn-primary bdr0 bg-primary clr-white">
                                     <i class="fa fa-bars"></i>
                                 </button>
                             </div>
@@ -31,7 +31,7 @@ $this->beginContent('@frontend/views/layouts/_clear.php')
                                 
                                 <form action="" method="" accept-charset="utf-8">
                                     <div class="input-group input-group pv20">
-                                          <input type="text" class="form-control bg-primary clr-white sec_plac" placeholder="Search" aria-describedby="sizing-addon1">
+                                          <input type="text" class="form-control bdr0 bg-primary clr-white sec_plac" placeholder="Search" aria-describedby="sizing-addon1">
                                           <span class="input-group-addon bg-primary" id="sizing-addon1">
                                           <a href="#" class="clr-white sec_fe_a">
                                               <i class="fa fa-search"></i>
@@ -43,7 +43,7 @@ $this->beginContent('@frontend/views/layouts/_clear.php')
                         </div>
                     </div>
                     <div class="col-md-3 pv20">
-                        <a href="<?php echo url::to(['../../backend/web'])?>" class="btn btn-primary bg-primary clr-white ph20"> Staff login</a>
+                        <a href="<?php echo url::to(['../../backend/web'])?>" class="btn btn-primary bg-primary clr-white bdr0 ph20"> Staff login</a>
                     </div>
                 </div>            
             </div>
