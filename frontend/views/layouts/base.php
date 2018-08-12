@@ -10,57 +10,6 @@ use yii\helpers\Url;
 $this->beginContent('@frontend/views/layouts/_clear.php')
 ?>
 <div class="">
-<!--     <?php
-    NavBar::begin([
-        'brandLabel' => Yii::$app->name,
-        'brandUrl' => Yii::$app->homeUrl,
-        'options' => [
-            'class' => 'navbar-inverse navbar-fixed-top',
-        ],
-    ]); ?>
-    <?php echo Nav::widget([
-        'options' => ['class' => 'navbar-nav navbar-right'],
-        'items' => [
-            ['label' => Yii::t('frontend', 'Home'), 'url' => ['/site/index']],
-            ['label' => Yii::t('frontend', 'About'), 'url' => ['/page/view', 'slug'=>'about']],
-            ['label' => Yii::t('frontend', 'Articles'), 'url' => ['/article/index']],
-            ['label' => Yii::t('frontend', 'Contact'), 'url' => ['/site/contact']],
-            ['label' => Yii::t('frontend', 'Signup'), 'url' => ['/user/sign-in/signup'], 'visible'=>Yii::$app->user->isGuest],
-            ['label' => Yii::t('frontend', 'Login'), 'url' => ['/user/sign-in/login'], 'visible'=>Yii::$app->user->isGuest],
-            [
-                'label' => Yii::$app->user->isGuest ? '' : Yii::$app->user->identity->getPublicIdentity(),
-                'visible'=>!Yii::$app->user->isGuest,
-                'items'=>[
-                    [
-                        'label' => Yii::t('frontend', 'Settings'),
-                        'url' => ['/user/default/index']
-                    ],
-                    [
-                        'label' => Yii::t('frontend', 'Backend'),
-                        'url' => Yii::getAlias('@backendUrl'),
-                        'visible'=>Yii::$app->user->can('manager')
-                    ],
-                    [
-                        'label' => Yii::t('frontend', 'Logout'),
-                        'url' => ['/user/sign-in/logout'],
-                        'linkOptions' => ['data-method' => 'post']
-                    ]
-                ]
-            ],
-            [
-                'label'=>Yii::t('frontend', 'Language'),
-                'items'=>array_map(function ($code) {
-                    return [
-                        'label' => Yii::$app->params['availableLocales'][$code],
-                        'url' => ['/site/set-locale', 'locale'=>$code],
-                        'active' => Yii::$app->language === $code
-                    ];
-                }, array_keys(Yii::$app->params['availableLocales']))
-            ]
-        ]
-    ]); ?>
-    <?php NavBar::end(); ?> -->
-
             <div class="top-bar">
             <div class="container">
                 <div class="row pv15 pl10">
@@ -243,149 +192,98 @@ $this->beginContent('@frontend/views/layouts/_clear.php')
                                     <li class="col-sm-12 col-md-3">
                                         <ul>
                                             <li>
-                                                <a href="index-mp-football.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>FootBall Club</a>
+                                                <a href="<?php echo Url::toRoute('al-khor-hospital') ?>" class="text-capitalize">
+                                                    Al Khor Hospital</a>
                                             </li>
                                             <li>
-                                                <a href="index-mp-creative.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Creative</a>
+                                                <a href="<?php echo Url::toRoute('al-wakra-hospital') ?>" class="text-capitalize">
+                                                    Al wakra Hospital</a>
                                             </li>
                                             <li>
-                                                <a href="index-mp-business.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Business</a>
+                                                <a href="<?php echo Url::toRoute('ambulatory-care-center') ?>" class="text-capitalize">
+                                                    Ambulatory Care Center</a>
                                             </li>
                                             <li>
-                                                <a href="index-mp-business.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Business-2</a>
+                                                <a href="<?php echo Url::toRoute('communicable-disease-center') ?>" class="text-capitalize">
+                                                    Communicable Disease Center</a>
                                             </li>
                                             <li>
-                                                <a href="index-mp-fitness.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Fitness</a>
-                                            </li>
-                                            <li>
-                                                <a href="index-mp-app.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>App Full Page</a>
-                                            </li>
-                                            <li>
-                                                <a href="index-mp-shopping.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Shopping</a>
-                                            </li>
-                                            <li>
-                                                <a href="index-mp-church.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Church</a>
-                                            </li>
-                                            <li>
-                                                <a href="index-mp-car-product.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Car Product</a>
+                                                <a href="<?php echo Url::toRoute('hamad-general-hospital') ?>" class="text-capitalize">
+                                                    Hamad General Hospital</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li class="col-sm-12 col-md-3">
                                         <ul>
                                             <li>
-                                                <a href="index-mp-charity.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Charity</a>
+                                                <a href="<?php echo Url::toRoute('heart-hospital') ?>" class="text-capitalize">
+                                                    Heart Hospital</a>
                                             </li>
                                             <li>
-                                                <a href="index-mp-medical.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Medical</a>
+                                                <a href="<?php echo Url::toRoute('ncccr') ?>" class="text-capitalize">
+                                                    NCCCR</a>
                                             </li>
                                             <li>
-                                                <a href="index-mp-hosting.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Hosting</a>
+                                                <a href="<?php echo Url::toRoute('qatar-metabolic-institute') ?>" class="text-capitalize">
+                                                    Qatar Metabolic Institute</a>
                                             </li>
                                             <li>
-                                                <a href="index-mp-restaurant.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Restaurant</a>
+                                                <a href="<?php echo Url::toRoute('qatar-rehabilitation-institute') ?>" class="text-capitalize">
+                                                    Qatar rehabilitation Institue</a>
                                             </li>
                                             <li>
-                                                <a href="index-mp-lawyers.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Lawyers</a>
-                                            </li>
-                                            <li>
-                                                <a href="index-mp-band.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Music Band</a>
-                                            </li>
-                                            <li>
-                                                <a href="index-mp-fashion.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Fashion</a>
-                                            </li>
-                                            <li>
-                                                <a href="index-mp-r-work.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Freelancing</a>
+                                                <a href="<?php echo Url::toRoute('rumailah-hospital') ?>" class="text-capitalize">
+                                                    Rumailah Hospital</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li class="col-sm-12 col-md-3">
                                         <ul>
                                             <li>
-                                                <a href="index-mp-freelancer.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Freelacner</a>
+                                                <a href="<?php echo Url::toRoute('cuban-hospital') ?>" class="text-capitalize">
+                                                    The Cuban Hospital</a>
                                             </li>
                                             <li>
-                                                <a href="index-mp-construction.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Construction</a>
+                                                <a href="<?php echo Url::toRoute('womens-hospital') ?>" class="text-capitalize">
+                                                    Women`s Hospital</a>
                                             </li>
                                             <li>
-                                                <a href="index-mp-education.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Education</a>
+                                                <a href="<?php echo Url::toRoute('women-reserch-center') ?>" class="text-capitalize">
+                                                    Women`s Wellness and Reserch Center</a>
                                             </li>
                                             <li>
-                                                <a href="index-mp-taxi.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Texi</a>
+                                                <a href="<?php echo Url::toRoute('continuing-care') ?>" class="text-capitalize">
+                                                    Continuing Care</a>
                                             </li>
                                             <li>
-                                                <a href="index-mp-transport.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Transport</a>
-                                            </li>
-                                            <li>
-                                                <a href="index-mp-saloon.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Saloon</a>
-                                            </li>
-                                            <li>
-                                                <a href="index-mp-agency.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Agency</a>
-                                            </li>
-                                            <li>
-                                                <a href="index-mp-dating.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Dating</a>
+                                                <a href="<?php echo Url::toRoute('tabacco-control-center') ?>" class="text-capitalize">
+                                                    Tabacco Control Center</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li class="col-sm-12 col-md-3">
                                         <ul>
                                             <li>
-                                                <a href="index-mp-spa.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Spa</a>
+                                                <a href="<?php echo Url::toRoute('enya-specialized-care') ?>" class="text-capitalize">
+                                                    Enya Specialized Care Center</a>
                                             </li>
                                             <li>
-                                                <a href="index-mp-wedding.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Wedding</a>
+                                                <a href="<?php echo Url::toRoute('expansion-plus') ?>" class="text-capitalize">
+                                                    Expansion Plus</a>
                                             </li>
                                             <li>
-                                                <a href="index-mp-photography.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Photography</a>
+                                                <a href="<?php echo Url::toRoute('medical-affairs-offic') ?>" class="text-capitalize">
+                                                    International Medical Affairs Office</a>
                                             </li>
                                             <li>
-                                                <a href="index-mp-travel.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Travel</a>
+                                                <a href="<?php echo Url::toRoute('nursing') ?>" class="text-capitalize">
+                                                    Nursing</a>
                                             </li>
                                             <li>
-                                                <a href="index-mp-blogger.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Blogger</a>
+                                                <a href="<?php echo Url::toRoute('pecs') ?>" class="text-capitalize">
+                                                    PECS</a>
                                             </li>
-                                            <li>
-                                                <a href="index-mp-fixit.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Fixit</a>
-                                            </li>
-                                            <li>
-                                                <a href="index-mp-corportate.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>Corporate</a>
-                                            </li>
-                                            <li>
-                                                <a href="index-mp-business-3.html" class="text-capitalize">
-                                                    <i class="fa fa-angle-right pr10"></i>business 3</a>
-                                            </li>
+                                            
                                         </ul>
                                     </li>
                                 </ul>
@@ -430,14 +328,17 @@ $this->beginContent('@frontend/views/layouts/_clear.php')
                                 <div class="row first-column">
                                     <div class="col-md-12">
                                         <div class="mv30">
-                                            <h2 class="fs30 clr-white ls1 text-uppercase fw100"><?php echo Yii::$app->name ?></h2>
+                                            <div class="img-logo">
+                                                <a href="<?php echo \yii\helpers\Url::toRoute('index')?>">
+                                                    <img src="<?php echo yii::getAlias('@web'. "/theme/img/logos/index-blogger.png") ?>">
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-12 para-footer">
                                         <p class="clr-white fs14 ls2 line-height-custom">
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                         </p>
-                                        <a href="#" class="mt20 button-downloadd btn btn-lg">Download Template!</a>
                                     </div>
                                 </div>
                             </div>

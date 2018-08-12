@@ -200,30 +200,3 @@
 	line-height: 25px;
 }
 
-.breadcrumb 
-{
-    padding: 10px 15px !important;
-    margin-bottom: 20px !important;
-    list-style: none !important;
-    color: #fff !important;
-    background-color: #3156a3 !important;
-    border-radius: 1px !important;
-	letter-spacing: 1px;
-}
-.breadcrumb li
-{
-	letter-spacing: 1px;
-}
-.breadcrumb li a
-{
-  	color: #fff !important;
-	line-height: 25px;
-}
-.breadcrumb > .active {
-    color: #fff;
-}
-.breadcrumb > li + li:before {
-    padding: 0 5px;
-    color: #fff;
-    content: "/\00a0";
-}

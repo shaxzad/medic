@@ -9,7 +9,7 @@ use yii\helpers\Html;
  <section class="joinus">
 	<div class="container">
 		<?php 
-			$this->title = 'Mediacl Reserch';
+			$this->title = 'Al Khor Hospital';
 			$this->params['breadcrumbs'][] = $this->title;
 		 ?>
 		<div class="row mb50 mt10">
@@ -18,16 +18,19 @@ use yii\helpers\Html;
 					<div role="tabpanel" id="#myTab" class="nav nav-tabs">
 						<ul role="tablist" class="nav nav-tabs">
 							<li role="presentation" class="active">
-								<a href="#1tab" aria-controls="1tab" role="tab" data-toggle="tab">Medical Reserch</a>
+								<a href="#1tab" aria-controls="1tab" role="tab" data-toggle="tab">Home</a>
 							</li>
 							<li role="presentation">
-								<a href="#2tab" aria-controls="2tab" role="tab" data-toggle="tab">About</a>
+								<a href="#2tab" aria-controls="2tab" role="tab" data-toggle="tab">Our Services</a>
 							</li>
 							<li role="presentation">
-								<a href="#3tab" aria-controls="3tab" role="tab" data-toggle="tab">Inovation Awards</a>
+								<a href="#3tab" aria-controls="3tab" role="tab" data-toggle="tab">Patients and Visitors</a>
 							</li>
 							<li role="presentation">
-								<a href="#4tab" aria-controls="4tab" role="tab" data-toggle="tab">Partners</a>
+								<a href="#4tab" aria-controls="4tab" role="tab" data-toggle="tab">News And Events</a>
+							</li>
+							<li role="presentation">
+								<a href="#5tab" aria-controls="5tab" role="tab" data-toggle="tab">Contact Us</a>
 							</li>
 						</ul>
 						<div class="tab-content">
@@ -36,96 +39,140 @@ use yii\helpers\Html;
 									<div class="row">
 										<div class="col-md-12">
 											<div id="section1" class="hide-arrow">
-										        <div id="carousel-area-construction" class="fitness-mp-slider">
-										            <div id="car-slider" class="owl-carousel">
-										                <div style="background: url(<?php echo yii::getAlias('@web'). '/theme/img/rupiza/medical/bg1.jpg'; ?>);height:400px !important" class="bg-cover slider-wow fadeIn">
-										                    <div class="alpha-background-construction">
-										                        <div style="background: url(<?php yii::getAlias('@web'). '/theme/img/bg_pattern.png'; ?>)" class="paterns hp100">
-										                            <div class="table">
-										                                <div class="table-middle-row text-center slider-wow fadeIn">
-										                                    <div class="container">
-										                                        <div class="row">
-										                                            <div class="col-md-12">
-										                                            <div class="text-left">
-										                                                    <h1 id="fittext5" data-wow-delay="0.5s" class="ls1 fs50 text-uppercase clr-white slider-wow zoomIn fw100 text-center">we work for
-										                                                        <strong class="font-rest-family"> your Health </strong>
-										                                                    </h1>
-										                                                </div>
-										                                            </div>
-										                                        </div>
-										                                    </div>
-										                                </div>
-										                            </div>
-										                        </div>
-										                    </div>
-										                </div>
-										                <div style="background: url(<?php echo yii::getAlias('@web'). '/theme/img/rupiza/medical/bg2.jpg'; ?>);height:400px !important" class="bg-cover">
-										                    <div class="alpha-background-construction slider-wow fadeIn">
-										                        <div style="background: url(<?php echo yii::getAlias('@web'). '/theme/img/bg_pattern.png';?>)" class="paterns hp100">
-										                            <div class="table">
-										                                <div class="table-middle-row text-center slider-wow fadeIn">
-										                                    <div class="mv35">
-										                                        <div>
-										                                            <h2 data-wow-delay="0.7s" class="clr-white font-weight-100 text-uppercase font-size-large fw300">
-										                                                <span class='type-slider'>
-										                                                    <span class='type-here-slider'></span>
-										                                                </span>.</h2>
-										                                        </div>
-										                                    </div>
+												<div id="carousel-area-construction" class="fitness-mp-slider">
+													<div id="car-slider" class="owl-carousel">
+														<div style="background: url(<?php echo yii::getAlias('@web'). '/theme/img/rupiza/medical/bg1.jpg'; ?>);height:400px !important" class="bg-cover slider-wow fadeIn">
+															<div class="alpha-background-construction">
+																<div style="background: url(<?php yii::getAlias('@web'). '/theme/img/bg_pattern.png'; ?>)" class="paterns hp100">
+																	<div class="table">
+																		<div class="table-middle-row text-center slider-wow fadeIn">
+																			<div class="container">
+																				<div class="row">
+																					<div class="col-md-12">
+																						<div class="text-left">
+																							<h1 id="fittext5" data-wow-delay="0.5s" class="ls1 fs50 text-uppercase clr-white slider-wow zoomIn fw100 text-center">we work for
+																								<strong class="font-rest-family"> your Health </strong>
+																							</h1>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div style="background: url(<?php echo yii::getAlias('@web'). '/theme/img/rupiza/medical/bg2.jpg'; ?>);height:400px !important" class="bg-cover">
+															<div class="alpha-background-construction slider-wow fadeIn">
+																<div style="background: url(<?php echo yii::getAlias('@web'). '/theme/img/bg_pattern.png';?>)" class="paterns hp100">
+																	<div class="table">
+																		<div class="table-middle-row text-center slider-wow fadeIn">
+																			<div class="mv35">
+																				<div>
+																					<h2 data-wow-delay="0.7s" class="clr-white font-weight-100 text-uppercase font-size-large fw300">
+																						<span class='type-slider'>
+																							<span class='type-here-slider'></span>
+																						</span>.</h2>
+																				</div>
+																			</div>
 
-										                                    <ul id="learnmore1" class="no-padding">
-										                                        <li>
-										                                            <a href="#proccess" data-wow-delay="0.7s" id="learnmore14" class="learnmore-btn2 btn bg-primary btn-slider1 btn-lg slider-wow fadeInUp ls1">Read more</a>
-										                                        </li>
-										                                    </ul>
-										                                </div>
-										                            </div>
-										                        </div>
-										                    </div>
-										                </div>
-										                <div style="background: url(<?php echo yii::getAlias('@web'). '/theme/img/rupiza/medical/bg.jpg'?>);height:400px !important" class="bg-cover">
-										                    <div class="alpha-background-construction hp100">
-										                        <div style="background: url(img/texture_layer.png)" class="paterns hp100">
-										                            <div class="table">
-										                                <div class="table-middle-row text-center slider-wow zoomIn">
-										                                    <div class="container">
-										                                        <div class="row">
-										                                            <div class="col-md-12">
-										                                                <div class="text-center">
-										                                                    <h2 id="fittext4" data-wow-delay="0.5s" class="fw100 text-uppercase clr-white slider-wow fadeInDown">keep your
-										                                                        <strong class="font-rest-family"> body </strong> fit
-										                                                        <br/>and stround</h2>
-										                                                    <div id="learnmore36" class="no-padding"></div>
-										                                                </div>
-										                                            </div>
-										                                        </div>
-										                                    </div>
-										                                </div>
-										                            </div>
-										                        </div>
-										                    </div>
-										                </div>
-										            </div>
-										        </div>
-										    </div>
+																			<ul id="learnmore1" class="no-padding">
+																				<li>
+																					<a href="#proccess" data-wow-delay="0.7s" id="learnmore14" class="learnmore-btn2 btn bg-primary btn-slider1 btn-lg slider-wow fadeInUp ls1">Read more</a>
+																				</li>
+																			</ul>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div style="background: url(<?php echo yii::getAlias('@web'). '/theme/img/rupiza/medical/bg.jpg'?>);height:400px !important" class="bg-cover">
+															<div class="alpha-background-construction hp100">
+																<div style="background: url(img/texture_layer.png)" class="paterns hp100">
+																	<div class="table">
+																		<div class="table-middle-row text-center slider-wow zoomIn">
+																			<div class="container">
+																				<div class="row">
+																					<div class="col-md-12">
+																						<div class="text-center">
+																							<h2 id="fittext4" data-wow-delay="0.5s" class="fw100 text-uppercase clr-white slider-wow fadeInDown">keep your
+																								<strong class="font-rest-family"> body </strong> fit
+																								<br/>and stround</h2>
+																							<div id="learnmore36" class="no-padding"></div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
 
 
 
 
 										</div>
 									</div>
+
 									<div class="row">
-										<div class="col-md-8">
-											<div class="mv30">
-												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-												tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-												quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-												consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-												cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-												proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-											</div>  
-										</div>
 										<div class="col-md-4">
+											<div class="iconbox2">
+												<div class="box-icon">
+													<a href="#" class="clr-primary">
+														<img src="<?php echo yii::getAlias('@web'. "/theme/img/icons/1.png") ?>" alt="">
+													</a>
+												</div>
+												<div class="box-content ml80">
+													<div class="box-heading">
+														<h4 class="fw300 text-uppercase">Find A Doctor</h4>
+													</div>
+													<div class="box-para mt20">
+														<form>
+															<input type="text" name="" placeholder="Name of Doctor" class="form-control input-sm">
+															<input type="text" name="" placeholder="Specialty" class="form-control mv5 input-sm">
+															<select class="form-control input-sm">
+																<option value="0">Select Hospital</option>
+																<option value="1">HGH</option>
+																<option value="2">AWH</option>
+																<option value="3">RH</option>
+																<option value="4">WH</option>
+																<option value="5">AKH</option>
+																<option value="6">NCCCR</option>
+																<option value="7">Ambulance Service</option>
+																<option value="8">HH</option>
+																<option value="9">Cuban</option>
+															</select>
+															<button class="btn btn-sm btn-primary mv5 bdr0">Find a Doctor</button>
+														</form>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4 mv50">
+											<div class="iconbox2" style="margin-top: 10px;">
+												<div class="box-icon">
+													<a href="#" class="clr-primary">
+														<img src="<?php echo yii::getAlias('@web'. "/theme/img/icons/2.png") ?>" alt="">
+													</a>
+												</div>
+												<div class="box-content ml80">
+													<div class="box-heading">
+														<img src="<?php echo yii::getAlias('@web'. "/theme/img/icons/My-Health-Logo.png") ?>" alt="">
+													</div>
+													<div class="box-para mt20">
+														<p>Access your patient record information</p>
+														<button class="btn btn-primary btn-sm bdr0">Click Here</button>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										
+										<div class="col-md-4 mv50">
 											<div class="contact-acadmic">
 												<h3>Contact Us</h3>
 												<div >
@@ -152,14 +199,14 @@ use yii\helpers\Html;
 									<ul class="decimal">
 										<li>
 											In 2010, Hamad Medical Corporation (HMC) continued its challenging journey of transformation, with the goal of turning its hospitals into true Academic Health Centers. HMC is seeking, as an organization, to evolve into a thriving Academic Health System that links together health, education and research, powered by the synergies between itself and its academic partners. 
- 										</li>
- 										<li>
+										</li>
+										<li>
 											This highly ambitious partnership is carried out in close collaboration with Weill Cornell Medical College in Qatar (WCMC-Q) and other academic partners in Qatar and internationally. 
 										</li>
- 										<li>	 
+										<li>	 
 											This journey of transformation also includes the forging of meaningful relationships with partners across a wide range of health and allied health-related domains. Our current partners include Qatar University, the University of Calgary – Qatar, College of the North Atlantic – Qatar, Sidra Medical and Research Center, and Primary Health Care Corporation. 
 										</li>
- 										<li>	 
+										<li>	 
 											Launched in August 2011, the Academic Health System will generate significant positive impact upon patient care, medical education and medical research. The strength of the proposal results from the intertwining of these central activities to improve health and wellbeing whilst expanding the boundaries of knowledge and ensuring a modern, flexible and sustainable workforce. The initiative represents a major milestone in HMC’s development as Qatar’s leading healthcare provider through the delivery of world-class health care, medical education and research excellence. A key element of the initiative will be wider community engagement through developing a deeper social conscience and bestowing tangible economic and health benefits on the community.
 											Full documents for the floated tenders can be obtained from the Supply Chain Management Reception Office, during working hours between 7:00-11:00 AM against the non-refundable payment of:
 										</li>
@@ -178,14 +225,14 @@ use yii\helpers\Html;
 									<ul class="decimal">
 										<li>
 											In 2010, Hamad Medical Corporation (HMC) continued its challenging journey of transformation, with the goal of turning its hospitals into true Academic Health Centers. HMC is seeking, as an organization, to evolve into a thriving Academic Health System that links together health, education and research, powered by the synergies between itself and its academic partners. 
- 										</li>
- 										<li>
+										</li>
+										<li>
 											This highly ambitious partnership is carried out in close collaboration with Weill Cornell Medical College in Qatar (WCMC-Q) and other academic partners in Qatar and internationally. 
 										</li>
- 										<li>	 
+										<li>	 
 											This journey of transformation also includes the forging of meaningful relationships with partners across a wide range of health and allied health-related domains. Our current partners include Qatar University, the University of Calgary – Qatar, College of the North Atlantic – Qatar, Sidra Medical and Research Center, and Primary Health Care Corporation. 
 										</li>
- 										<li>	 
+										<li>	 
 											Launched in August 2011, the Academic Health System will generate significant positive impact upon patient care, medical education and medical research. The strength of the proposal results from the intertwining of these central activities to improve health and wellbeing whilst expanding the boundaries of knowledge and ensuring a modern, flexible and sustainable workforce. The initiative represents a major milestone in HMC’s development as Qatar’s leading healthcare provider through the delivery of world-class health care, medical education and research excellence. A key element of the initiative will be wider community engagement through developing a deeper social conscience and bestowing tangible economic and health benefits on the community.
 											Full documents for the floated tenders can be obtained from the Supply Chain Management Reception Office, during working hours between 7:00-11:00 AM against the non-refundable payment of:
 										</li>
