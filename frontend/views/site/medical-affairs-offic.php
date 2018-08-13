@@ -138,26 +138,26 @@ use yii\helpers\Html;
 
 									<div class="row">
 										<div class="col-md-12 mv40">
+                      <h3>International Medical Affairs Office</h3>
                       <hr class="hr" style="margin: 10px 0;">
                       <div>
                         <p class="mv10">
-                        Nurses are essential to the delivery of safe, effective and compassionate healthcare at HMC. 
+                          The purpose of the International Medical Affairs Office (IMAO) is to achieve consistent and exceptional standards of healthcare for patients who travel abroad for treatment. The IMAO focuses on clinical quality and ensures a seamless experience for patients from referral through to return home and follow up by HMC physicians.
                         </p>    
                         <p class="mv10">
-                        Our nurses at HMC work to promote health, prevent disease and help their patients cope with illness. They are advocates for their patients, and the families of their patients, and are committed to providing care with dignity, respect and compassion. 
+                            During the first year, the IMAO has been able to identify gaps which it can target for service improvement in Qatar and in doing so will reduce the demand for overseas treatment.
                         </p>    
                         <p class="mv10">
-                        We have over 8,000 nurses working across hospitals, clinics and the homecare service and our nurses are the most visible and trusted members of the HMC patient care team. They support their patients through some of the most significant moments in their lives, including birth, death, diagnosis, treatment and recovery and are increasingly taking on specialized roles to provide the most effective patient care that reflects international best practice. 
-                        </p>    
+                          <strong> Vision
+                          </strong>
+                        </p>  
                         <p class="mv10">
-                          <strong>A focal point for all things nursing</strong>
-                        </p>    
-                        <p class="mv10">
-                          This space is a focal point for all nursing related topics and includes education and research resources, news and other useful materials. It also acts as a forum for sharing good news and showcasing the incredible skills, dedication and commitment of our nurses. 
-                        </p>    
-                        <p class="mv10">
-                         We encourage our patients and members of the public to use this information as a mechanism to gain insight into the nursing profession and the role that our nurses play in providing the safest, most effective and most compassionate patient care at HMC. 
-                        </p>    
+                          <ul>
+                            <li>To improve the quality of clinical care for Qatari patients abroad</li>
+                            <li>To improve the experience of patients and their families travelling abroad
+                            </li>
+                          </ul>
+                        </p>  
                       </div>
                     </div>
 									</div>
